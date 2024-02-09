@@ -4,9 +4,9 @@ import { ButtonLine } from "../icons/common";
 const CommonButton = (props) => {
   const { content } = props;
   return (
-    <div className=" relative group">
+    <div className=" relative group z-50">
       <button
-        className={`font-inter font-bold text-base bg-transparent text-white border-white border  rounded-[41px] p-[13px_46px] relative z-10 `}
+        className={`font-inter font-bold text-base bg-transparent text-white border-white border  rounded-[41px] p-[13px_46px] relative z-50 `}
       >
         {content}
       </button>

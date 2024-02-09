@@ -42,3 +42,8 @@ body {
 .bg-size-full{
   background-size: 100% 100% !important;
 }
+.bg-three-scetion{
+ background-image: url('/assets/images/background/jackportBg.png');
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+}

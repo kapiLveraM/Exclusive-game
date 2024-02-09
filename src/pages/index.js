@@ -3,7 +3,9 @@ import NuestraMision from "@/components/NuestraMision";
 import NuestrosAtributos from "@/components/NuestrosAtributos";
 import NuestrasOfertas from "@/components/NuestrasOfertas";
 import Jackpot from "@/components/Jackpot";
-import Lanza from "@/components/Lanza";
+
+import KasinoNingh from "@/components/KasinoNingh";
+import Mas from "@/components/Mas";
 
 
 export default function Home() {
@@ -13,9 +15,9 @@ export default function Home() {
       <NuestraMision />
       <NuestrosAtributos />
       <Jackpot />
-      <Lanza/>
+      <KasinoNingh />
+      <Mas/>
       <NuestrasOfertas />
-
       </>
   );
 }

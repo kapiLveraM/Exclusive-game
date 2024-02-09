@@ -1,3 +1,5 @@
+import { GreenBulb, GreenValue, StartMan } from "./icons/common";
+
 export const SlotCardContent = [
   "/assets/images/slots/jetX.webp",
   "/assets/images/slots/joker.webp",
@@ -17,7 +19,26 @@ export const JackpotServicesContent = [
 
 // Juegos content
 export const JuegosContent = [
-  "/assets/images/ezuko/card_image_1.png",
-  "/assets/images/ezuko/card_image_2.png",
-  "/assets/images/ezuko/card_image_3.png",
+  "/assets/images/Juegos/blackJack.webp",
+  "/assets/images/Juegos/europeanRoulette.webp",
+  "/assets/images/Juegos/liveBetting.webp",
+];
+
+// mas card data
+export const masCards = [
+  {
+    icon: <GreenBulb />,
+    tittle: "200",
+    content: "Páginas creadas",
+  },
+  {
+    icon: <StartMan />,
+    tittle: "98%",
+    content: "Clientes Satisfechas",
+  },
+  {
+    icon: <GreenValue />,
+    tittle: "200",
+    content: "Divisas Disponibles",
+  },
 ];
