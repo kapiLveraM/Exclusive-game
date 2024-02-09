@@ -2,6 +2,8 @@ import NavBara from "@/components/common/navBarr/NavBara";
 import NuestraMision from "@/components/NuestraMision";
 import NuestrosAtributos from "@/components/NuestrosAtributos";
 import NuestrasOfertas from "@/components/NuestrasOfertas";
+import Jackpot from "@/components/Jackpot";
+import Lanza from "@/components/Lanza";
 
 
 export default function Home() {
@@ -10,7 +12,10 @@ export default function Home() {
     <NavBara />
       <NuestraMision />
       <NuestrosAtributos />
-      <NuestrasOfertas/>
+      <Jackpot />
+      <Lanza/>
+      <NuestrasOfertas />
+
       </>
   );
 }

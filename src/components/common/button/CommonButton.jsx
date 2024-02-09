@@ -2,7 +2,7 @@
 import React from "react";
 import { ButtonLine } from "../icons/common";
 const CommonButton = (props) => {
-  const { content, bgColor } = props;
+  const { content } = props;
   return (
     <div className=" relative group">
       <button

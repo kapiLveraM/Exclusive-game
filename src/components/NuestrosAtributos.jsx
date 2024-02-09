@@ -1,22 +1,20 @@
 import Image from "next/image";
 import React from "react";
+import { SlotCardContent } from "./common/Helper";
+import CommonButtonLiner from "./common/button/CommonButtonLiner";
+import CommonCradContent from "./common/slotsCard/CommonCradContent";
 
 const NuestrosAtributos = () => {
   return (
-    <div className=" bg-white  clip _path">
-      <div className=" container xl:max-w-[1140px] px-3 mx-auto py-28">
+    <div className=" bg-white md:bg-transparent bg-[url('/assets/images/background/slots.png')] bg-no-repeat bg-size-full my-16 py-16  md:my-0 md:py-32">
+      <div className=" container xl:max-w-[1140px] px-3 mx-auto md:py-28">
         <h2 className=" font-Anton text-3xl md:text-5xl text-black text-center">
           Nuestros Atributos de Marca
         </h2>
         <div className=" flex flex-wrap justify-center md:justify-between mt-[60px] relative">
-          {/* <Image loading="lazy"
-                        height={273}
-                        width={42}
-                        src="/assets/icons/nuestrosAtributos/NuestrosArrow.svg"
-                      alt="poker"
-                    /> */}
+         
 
-          <div className=" md:w-2/6 lg:w-1/4 sm:px-3">
+          <div className=" w-full md:w-2/6 lg:w-1/4 sm:px-3">
             <div className=" lg:max-w-[263px] text-center flex flex-col justify-center items-center">
               <Image
                 loading="lazy"
@@ -34,7 +32,7 @@ const NuestrosAtributos = () => {
               </p>
             </div>
           </div>
-          <div className=" md:w-2/6 lg:w-1/4 sm:px-3 my-10 sm:my-0">
+          <div className=" w-full md:w-2/6 lg:w-1/4 sm:px-3 mb-10 mt-10  sm:my-0">
             <div className=" lg:max-w-[263px] text-center flex flex-col justify-center items-center">
               <Image
                 loading="lazy"
@@ -52,7 +50,7 @@ const NuestrosAtributos = () => {
               </p>
             </div>
           </div>
-          <div className=" md:w-2/6 lg:w-1/4 sm:px-3">
+          <div className=" w-full md:w-2/6 lg:w-1/4 sm:px-3">
             <div className=" lg:max-w-[263px] text-center flex flex-col justify-center items-center">
               <Image
                 loading="lazy"
@@ -68,7 +66,7 @@ const NuestrosAtributos = () => {
             </div>
           </div>
         </div>
-        <div className=" mt-14 md:mt-24 lg:mt-[150px]">
+        <div className=" mt-10 md:mt-16 lg:mt-[150px]">
           <h2 className=" font-Anton text-3xl md:text-5xl text-black text-center">
             Slots{" "}
           </h2>
@@ -80,6 +78,19 @@ const NuestrosAtributos = () => {
             experiencias, garantizando la máxima seguridad con operaciones
             protegidas por cifrado SSL de 256 bits.
           </p>
+          <div className="flex flex-wrap justify-center mt-8 md:mt-14 pt-1">
+          {SlotCardContent.map((value, index) => (
+            <div
+              key={index}
+              className="p-2 md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1"
+            >
+              <CommonCradContent image={value} buttonContent="Jugar" />
+            </div>
+          ))}
+          </div>
+          <div className="flex justify-center mt-9">
+            <CommonButtonLiner content="Mostrar más" />
+            </div>
         </div>
       </div>
     </div>
