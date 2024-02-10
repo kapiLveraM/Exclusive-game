@@ -4,8 +4,8 @@ import CommonButtonLiner from "./common/button/CommonButtonLiner";
 
 const KasinoNingh = () => {
   return (
-    <div className="bg-white md:bg-transparent bg-[url('/assets/images/background/slots.png')] bg-no-repeat bg-size-full my-20 py-16  md:my-0 md:py-32">
-    <div className="container max-w-[1152px] mx-auto px-3 lg:py-16">
+    <div id="Porqué" className="bg-white md:bg-transparent bg-[url('/assets/images/background/slots.png')] bg-no-repeat bg-size-full my-20 py-16  md:my-0 md:py-32">
+    <div className="container max-w-[1152px] mx-auto px-3 lg:py-24">
       <div className="flex flex-wrap lg:flex-row flex-col-reverse items-center justify-center">
         <div className="lg:w-6/12 md:w-7/12 sm:w-10/12 w-full lg:pe-5 lg:mt-0 mt-8">
           <div>
@@ -30,7 +30,8 @@ const KasinoNingh = () => {
             src="/assets/images/PorQue/casinoNight.webp"
             width={558}
             height={439}
-            className="w-full"
+              className="w-full"
+              alt="casinoNight"
           />
         </div>
       </div>

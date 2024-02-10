@@ -4,7 +4,7 @@ import CommonButton from "./common/button/CommonButton";
 
 const NuestrasOfertas = () => {
   return (
-    <div className=" py-20 xl:pt-36 xl:pb-16">
+    <div id="Ofertas" className=" my-20 xl:mt-36 xl:mb-16">
       <div className=" container xl:max-w-[1140px] px-3 mx-auto">
         <h2 className="font-Anton text-3xl md:text-5xl text-white text-center">
           Nuestras ofertas

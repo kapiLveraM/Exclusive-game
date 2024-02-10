@@ -85,15 +85,13 @@ export const accordianContent = [
   },
 ];
 
-// footer icon
-export const footerIcon = [<Instagram />, <FaceBook />, <LinkedIn/>];
 
 // footer icon
 export const footerContents = [
   {
     tittle: "Menú principal",
     link: [
-      { content: "Hogar", path: "/" },
+      {  content: "Hogar", path: "/" },
       { content: "Misión", path: "/" },
       { content: "Tragamonedas", path: "/" },
       { content: "Por qué elegirnos", path: "/" },

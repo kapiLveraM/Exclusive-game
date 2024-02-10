@@ -8,10 +8,10 @@ import Juegos from "./Juegos";
 const Jackpot = () => {
   return (
 
-    <div className="bg-three-scetion  md:mb-24 relative">
+    <div id="Tragamonedas" className="bg-three-scetion  md:mb-24 relative">
       <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] left-[-20px] top-[-25%] hidden lg:block"></div>
       <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] right-[-20%] bottom-0"></div>
-      <div className="container max-w-[1140px] mx-auto px-3 xl:pb-[150px] pb-20 relative z-40">
+      <div className="container max-w-[1140px] mx-auto px-3 xl:pb-[150px] pb-20 relative z-40 lg:mt-24">
         <div className="flex flex-wrap items-center justify-center">
           <div className="lg:w-6/12 md:w-7/12 sm:w-10/12 w-full lg:pe-5">
             <Image
@@ -20,11 +20,12 @@ const Jackpot = () => {
               width={558}
               height={439}
               className=" w-full "
+              alt="jackpot"
             />
           </div>
           <div className="lg:w-6/12 md:w-7/12 sm:w-10/12 w-full lg:ps-5 lg:mt-0 mt-8">
             <div>
-              <p className=" font-Anton font-normal text-white xl:text-5xl text-3xl mb-4 leading-[97%]">
+              <p className=" font-Anton font-normal text-white xl:text-[47px] text-3xl mb-4 leading-[97%]">
                 Potenciando sus elecciones
               </p>
               <p className=" font-inter font-medium md:text-sm text-xs text-white opacity-70 mb-6">

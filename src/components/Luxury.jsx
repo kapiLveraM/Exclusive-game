@@ -20,7 +20,7 @@ const Luxury = () => {
               height={150}
               src="/assets/images/luxury/playingCardDarkRed.png"
                   alt="coin"
-                  className=" absolute right-32 top-[102px] hidden lg:block"
+                  className=" absolute right-32 top-[102px] hidden lg:block Card_flip"
               />
               <Image
                loading="lazy"
@@ -28,7 +28,7 @@ const Luxury = () => {
               height={186}
               src="/assets/images/luxury/playingCardRed.png"
                   alt="coin"
-                  className=" absolute left-32 bottom-24 hidden lg:block"
+                  className=" absolute left-32 bottom-24 hidden lg:block Card_flip"
               />
               <Image
                loading="lazy"

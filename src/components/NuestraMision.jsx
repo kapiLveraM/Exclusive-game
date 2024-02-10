@@ -5,7 +5,7 @@ import { GreenArrow } from "./common/icons/common";
 
 const NuestraMision = () => {
   return (
-    <div className="sm:pt-20 sm:pb-24 relative ">
+    <div id="Misión" className="sm:pt-20 sm:pb-24 relative ">
       <div className=" w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] left-[-20px] top-16"></div>
       <div className=" w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] right-[-22%] bottom-[-28%] hidden lg:block"></div>
       <div className="container xl:max-w-[1140px] mx-auto px-3">

@@ -18,8 +18,9 @@ import BackToTopButton from "@/components/common/BackToTopButton ";
 
 export default function Home() {
   return (
-    <>
-      <BackToTopButton/>
+    <div className=" overflow-x-hidden">
+      <BackToTopButton />
+      
     <Hero/>
       <NuestraMision />
       <NuestrosAtributos />
@@ -33,6 +34,6 @@ export default function Home() {
       <Faqs/>
       <PropiaLanza />
       <Footer/>
-      </>
+      </div>
   );
 }

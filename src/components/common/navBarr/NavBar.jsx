@@ -1,3 +1,4 @@
+"use clinte"
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -44,37 +45,37 @@ const NavBar = () => {
                             </div>
                             <div className="hidden lg:flex gap-7">
                                 <Link
-                                    href="#"
-                                    className=" font-Inter font-medium text-sm text-white"
+                                    href="#Hogar"
+                                    className=" opacity-80 hover:opacity-100 transition-all ease-in-out duration-200 font-Inter font-medium text-sm text-white"
                                 >
                                     Hogar
                                 </Link>
                                 <Link
-                                    href="#"
-                                    className=" font-Inter font-medium text-sm text-white"
+                                    href="#Misión"
+                                    className=" opacity-80 hover:opacity-100 transition-all ease-in-out duration-200 font-Inter font-medium text-sm text-white"
                                 >
                                     Misión
                                 </Link>
                                 <Link
-                                    href="#"
-                                    className=" font-Inter font-medium text-sm text-white"
+                                    href="#Tragamonedas"
+                                    className=" opacity-80 hover:opacity-100 transition-all ease-in-out duration-200 font-Inter font-medium text-sm text-white"
                                 >
                                     Tragamonedas
                                 </Link>
                                 <Link
-                                    href="#"
-                                    className=" font-Inter font-medium text-sm text-white"
+                                    href="#Porqué"
+                                    className=" opacity-80 hover:opacity-100 transition-all ease-in-out duration-200 font-Inter font-medium text-sm text-white"
                                 >
                                     Por qué elegirnos
                                 </Link>
                                 <Link
-                                    href="#"
-                                    className=" font-Inter font-medium text-sm text-white"
+                                    href="#Ofertas"
+                                    className=" opacity-80 hover:opacity-100 transition-all ease-in-out duration-200 font-Inter font-medium text-sm text-white"
                                 >
                                     Ofertas
                                 </Link>
                             </div>
-                            <div className="hidden md:block">
+                            <div className="hidden lg:block">
                                 <CommonButton type="submit" content="Acceso" />
                             </div>
                             <div className="flex items-center lg:hidden relative z-[200] sm:me-0 ">

@@ -19,7 +19,7 @@
 html,
 body {
   background: #00141b !important;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .common_button:hover {
   border-color: transparent;
@@ -77,3 +77,15 @@ body {
     transform: translateY(0px);
   }
 }
+.Card_flip{
+  animation: flipAnimation 6s linear infinite;
+}
+    @keyframes flipAnimation {
+      to {
+        transform: skew(0);
+      }
+  
+      from {
+        transform: rotateY(120deg);
+      }
+    }

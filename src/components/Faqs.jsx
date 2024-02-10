@@ -18,7 +18,7 @@ function Icon({ id, open }) {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           className={` absolute top-[50%] translate-x-[-50%] translate-y-[-50%] start-[50%] ${
-            id === open ? "rotate-90" : ""
+            id === open ? "" : "rotate-90"
           } w-4  h-1 transition-transform`}
         >
           <path

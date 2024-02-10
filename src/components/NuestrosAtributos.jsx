@@ -6,16 +6,22 @@ import CommonCradContent from "./common/slotsCard/CommonCradContent";
 
 const NuestrosAtributos = () => {
   return (
-    <div className=" bg-white md:bg-transparent bg-[url('/assets/images/background/slots.png')] bg-no-repeat bg-size-full my-20 py-16  md:my-0 md:py-32">
-      <div className=" container xl:max-w-[1140px] px-3 mx-auto md:py-28">
-        <h2 className=" font-Anton text-3xl md:text-5xl text-black text-center">
+    <div className=" bg-white md:bg-transparent bg-[url('/assets/images/background/slots.png')] bg-no-repeat bg-size-full my-20 py-16  md:my-0 md:py-32 relative z-50">
+      <div className=" container xl:max-w-[1140px] px-3 mx-auto md:pt-28 md:pb-36">
+        <h2 className=" font-Anton text-3xl md:text-5xl text-black text-center lg:mt-8">
           Nuestros Atributos de Marca
         </h2>
         <div className=" flex flex-wrap justify-center md:justify-between mt-[60px] relative">
          
 
           <div className=" w-full md:w-2/6 lg:w-1/4 sm:px-3">
-            <div className=" lg:max-w-[263px] text-center flex flex-col justify-center items-center">
+            <div className=" relative lg:max-w-[263px] text-center flex flex-col justify-center items-center">
+              <Image  loading="lazy"
+                height={273}
+                width={42}
+                className=" absolute w-72 left-[80%] top-0 hidden lg:block"
+                src="/assets/icons/nuestrosAtributos/NuestrosArrow.svg"
+                alt="poker"/>
               <Image
                 loading="lazy"
                 height={100}
@@ -33,12 +39,18 @@ const NuestrosAtributos = () => {
             </div>
           </div>
           <div className=" w-full md:w-2/6 lg:w-1/4 sm:px-3 mb-10 mt-10  sm:my-0">
-            <div className=" lg:max-w-[263px] text-center flex flex-col justify-center items-center">
+            <div className=" relative lg:max-w-[263px] text-center flex flex-col justify-center items-center">
+                <Image  loading="lazy"
+                height={273}
+                width={42}
+                className=" absolute w-72 left-[80%] bottom-[120px] hidden lg:block"
+                src="/assets/icons/nuestrosAtributos/NuestrosAtributosTwo.svg"
+                alt="poker"/>
               <Image
                 loading="lazy"
                 height={100}
                 width={100}
-                src="/assets/icons/nuestrosAtributos/Inteligencia.svg"
+                src="/assets/icons/nuestrosAtributos/Proactividad.svg"
                 alt="poker"
               />
               <h3 className="font-Anton text-md text-black mt-4">
@@ -56,7 +68,7 @@ const NuestrosAtributos = () => {
                 loading="lazy"
                 height={100}
                 width={100}
-                src="/assets/icons/nuestrosAtributos/Inteligencia.svg"
+                src="/assets/icons/nuestrosAtributos/Innovación.svg"
                 alt="poker"
               />
               <h3 className="font-Anton text-md text-black mt-4">Innovación</h3>

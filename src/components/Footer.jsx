@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import { footerContents, footerIcon } from "./common/Helper";
+import { FaceBook, Instagram, LinkedIn } from "./common/icons/common";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -24,20 +25,28 @@ const Footer = () => {
               dedicadas al desarrollo de multiplataformas para juegos de azar
             </p>
             <div className="flex gap-3 items-center">
-              {footerIcon.map((value, index) => {
-                return <div key={index}>{value}</div>
-              })}
+              <Link href="https://www.instagram.com/accounts/login/">
+                <Instagram />
+               
+            </Link>
+              <Link href="https://www.facebook.com/" target="_blank">
+                <FaceBook />
+            </Link>
+              <Link href="https://www.linkedin.com/" target="_blank">
+<LinkedIn/>
+              </Link>
             </div>
           </div>
           <div className="xl:w-8/12 w-full flex  flex-wrap xl:mt-0 mt-5">
-            {footerContents.map((value, index) => {
+            {footerContents.map((value) => {
               return (
                 <ul
                   className="md:w-4/12 sm:w-6/12 flex flex-col w-full items-start gap-2 xl:ps-10 md:mb-0 mb-5"
-                  key={index}
+                  key={value}
                 >
                   <li className=" font-Inter font-bold text-xs sm:text-sm text-white mb-2">
-                    {value.tittle}
+                    <Link href="">{value.tittle}</Link>
+                    
                   </li>
                   {value.link.map((subValue, subIndex) => {
                     return (

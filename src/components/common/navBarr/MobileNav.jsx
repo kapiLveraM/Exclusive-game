@@ -72,6 +72,7 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
           >
            Ofertas
           </Link>
+          
         </div>
       </div>
       <div
