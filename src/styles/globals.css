@@ -47,3 +47,33 @@ body {
  background-repeat: no-repeat;
  background-size: 100% 100%;
 }
+.bg-luxury{
+    background-size: 100% 100% !important;
+}
+.back_to_top {
+  -webkit-animation: top-btn infinite linear 2s;
+  animation: top-btn infinite linear 2s;
+}
+@-webkit-keyframes top-btn {
+  50% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+
+@keyframes top-btn {
+  50% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}

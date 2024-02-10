@@ -6,7 +6,7 @@ const CommonButtonLiner = (props) => {
   return (
     <div className=" relative group">
       <button
-        className={`font-inter font-bold text-base bg-[linear-gradient(306.99deg,_#51c8ef_-13.72%,_#7af57a_102.02%)] text-black  rounded-[41px] p-[13px_46px] relative z-10 `}
+        className={`font-inter font-bold text-sm bg-[linear-gradient(306.99deg,_#51c8ef_-13.72%,_#7af57a_102.02%)] text-black  rounded-[41px] p-[13px_46px] relative z-10 `}
       >
         {content}
       </button>

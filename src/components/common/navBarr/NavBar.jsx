@@ -3,10 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { HeaderCrossIcons, ToggleIcon } from "../icons/common";
 import MobileNav from "./MobileNav";
-import Hero from "@/components/Hero";
 import CommonButton from "../button/CommonButton";
 
-const NavBara = () => {
+const NavBar = () => {
     const [activeNavOverlay, setActiveNavOverlay] = useState(false);
     const [isToggleIconVisible, setIsToggleIconVisible] = useState(true);
     useEffect(() => {
@@ -26,7 +25,7 @@ const NavBara = () => {
                 add
                 setActiveNavOverlay={setActiveNavOverlay}
             />
-            <div className="bg-[url('/assets/images/background/hero.png')] bg-no-repeat bg-cover">
+           
 
                 <nav className="!bg-[#FFFFFF1A] py-5 ">
                     <div className=" container xl:max-w-[1140px] mx-auto px-3">
@@ -37,7 +36,7 @@ const NavBara = () => {
                                         loading="lazy"
                                         height={210}
                                         width={43}
-                                        src="/assets/icons/main-logo/Logo.svg"
+                                        src="/assets/icons/main-logo/logo.svg"
                                         alt="logoImg"
                                         className=" w-52"
                                     />
@@ -93,11 +92,10 @@ const NavBara = () => {
 
                     </div>
                 </nav>
-                <Hero/>
-            </div>
+            
             
         </>
     );
 };
 
-export default NavBara;
+export default NavBar;

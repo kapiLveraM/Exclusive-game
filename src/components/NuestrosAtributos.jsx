@@ -6,7 +6,7 @@ import CommonCradContent from "./common/slotsCard/CommonCradContent";
 
 const NuestrosAtributos = () => {
   return (
-    <div className=" bg-white md:bg-transparent bg-[url('/assets/images/background/slots.png')] bg-no-repeat bg-size-full my-16 py-16  md:my-0 md:py-32">
+    <div className=" bg-white md:bg-transparent bg-[url('/assets/images/background/slots.png')] bg-no-repeat bg-size-full my-20 py-16  md:my-0 md:py-32">
       <div className=" container xl:max-w-[1140px] px-3 mx-auto md:py-28">
         <h2 className=" font-Anton text-3xl md:text-5xl text-black text-center">
           Nuestros Atributos de Marca

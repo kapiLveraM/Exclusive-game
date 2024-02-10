@@ -7,9 +7,11 @@ import Juegos from "./Juegos";
 
 const Jackpot = () => {
   return (
-    <>
-    <div className="bg-three-scetion  md:mb-24">
-      <div className="container max-w-[1140px] mx-auto px-3 xl:pb-[150px] pb-20">
+
+    <div className="bg-three-scetion  md:mb-24 relative">
+      <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] left-[-20px] top-[-25%] hidden lg:block"></div>
+      <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] right-[-20%] bottom-0"></div>
+      <div className="container max-w-[1140px] mx-auto px-3 xl:pb-[150px] pb-20 relative z-40">
         <div className="flex flex-wrap items-center justify-center">
           <div className="lg:w-6/12 md:w-7/12 sm:w-10/12 w-full lg:pe-5">
             <Image
@@ -25,7 +27,7 @@ const Jackpot = () => {
               <p className=" font-Anton font-normal text-white xl:text-5xl text-3xl mb-4 leading-[97%]">
                 Potenciando sus elecciones
               </p>
-              <p className=" font-inter font-medium md:text-base text-sm text-white opacity-70 mb-6">
+              <p className=" font-inter font-medium md:text-sm text-xs text-white opacity-70 mb-6">
                 Con Exclusive Game lo mejor está de tu lado.
               </p>
               <div className=" flex flex-col gap-3 mb-6">
@@ -33,14 +35,14 @@ const Jackpot = () => {
                   return (
                     <div className="flex items-center" key={index}>
                       <GreenArrowJackpot />
-                      <p className="ms-2 font-Inter font-medium md:text-sm text-sm text-white opacity-70 max-w-[415px]">
+                      <p className="ms-2 font-Inter font-medium md:text-sm text-xs text-white opacity-70 max-w-[415px]">
                         {content}
                       </p>
                     </div>
                   );
                 })}
               </div>
-              <p className=" font-Inter font-medium md:text-sm text-sm text-white opacity-70">
+              <p className=" font-Inter font-medium md:text-sm text-xs text-white opacity-70">
                 Te reintegramos todo lo invertido en fichas en la moneda que
                 elijas.
               </p>
@@ -51,7 +53,7 @@ const Jackpot = () => {
       <Lanza />
       <Juegos />
       </div>
-      </>
+
   );
 };
 

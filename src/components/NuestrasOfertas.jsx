@@ -4,7 +4,7 @@ import CommonButton from "./common/button/CommonButton";
 
 const NuestrasOfertas = () => {
   return (
-    <div className=" md:pt-36 md:pb-16">
+    <div className=" py-20 xl:pt-36 xl:pb-16">
       <div className=" container xl:max-w-[1140px] px-3 mx-auto">
         <h2 className="font-Anton text-3xl md:text-5xl text-white text-center">
           Nuestras ofertas
@@ -12,11 +12,11 @@ const NuestrasOfertas = () => {
         <p className="mt-3 sm:mt-4 text-center font-medium text-xs sm:text-sm font-Inter text-white max-w-[904px] mx-auto">
           Te ofrecemos las mejores experiencias de juegos para tus clientes.
         </p>
-        <div className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box mt-7 lg:mt-[60px] rounded-md p-5 lg:p-[57px_15px_30px_40px]">
+        <div className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box mt-7 xl:mt-[60px] rounded-md p-5 lg:p-[57px_15px_30px_40px]">
           <div className="flex flex-wrap justify-between items-center">
             <div className="lg:w-6/12 sm:px-3">
               <div className="Nuestras-ofertas-img relative ">
-                <div className=" relative after:absolute after:content-[''] after:h-6 after:w-10/12 after:bottom-[-375px] after:left-[47%] after:max-w-[650px] after:bg-black after:opacity-20 after:blur-sm Nuestras-ofertas-img after:rounded-[50%]"></div>
+      <div className="w-40 h-40 absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)]  rounded-full blur-[70px] left-[11%] top-[-7%] hidden lg:block"></div>
                 <Image
                   width={500}
                   height={500}
