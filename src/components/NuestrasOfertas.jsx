@@ -12,23 +12,24 @@ const NuestrasOfertas = () => {
         <p className="mt-3 sm:mt-4 text-center font-medium text-xs sm:text-sm font-Inter text-white max-w-[904px] mx-auto">
           Te ofrecemos las mejores experiencias de juegos para tus clientes.
         </p>
-        <div className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box mt-7 xl:mt-[60px] rounded-md p-5 lg:p-[57px_15px_30px_40px]">
+        <div className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box mt-7 xl:mt-[60px] rounded-2xl p-5 lg:p-[57px_15px_30px_40px]">
           <div className="flex flex-wrap justify-between items-center">
             <div className="lg:w-6/12 sm:px-3">
               <div className="Nuestras-ofertas-img relative ">
-      <div className="w-40 h-40 absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)]  rounded-full blur-[70px] left-[11%] top-[-7%] hidden lg:block"></div>
+                <div className="w-40 h-40 absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)]  rounded-full blur-[70px] left-[11%] top-[-7%] hidden lg:block"></div>
+                <div className="absolute bg-[#000] h-8 max-w-[500px] w-full blur-sm opacity-20 bottom-[-15%] rounded-[50%] hidden lg:block"></div>
                 <Image
                   width={500}
                   height={500}
                   loading="lazy"
                   src="/assets/images/nuestrasofertas/Nuestras-ofertas.webp"
                   alt="Nuestras-ofertas"
-                  className=" w-100 relative z-10"
+                  className=" w-100 relative z-30"
                 />
               </div>
             </div>
             <div className="lg:w-6/12 xl:w-5/12 mt-16 lg:mt-0">
-              <h3 className="font-Anton text-md text-white">Silver</h3>
+              <h3 className="font-Anton text-md sm:text-lg text-white">Silver</h3>
               <p className="font-medium text-xs sm:text-sm font-Inter text-white opacity-80 mt-3 sm:mt-4">
                 Diseño predeterminado, atractivo y fácil de navegar, tecnología
                 HTLM5.

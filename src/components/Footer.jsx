@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="flex items-center justify-center py-5 border-t-[1px] border-[#191919] text-center gap-2 opacity-70 text-white font-medium text-xs sm:text-sm hover:opacity-100 duration-100 ease-in-out transition-all px-2">
+      <p className=" font-Inter flex items-center justify-center py-5 border-t-[1px] border-[#191919] text-center gap-2 opacity-50 text-white font-medium text-xs sm:text-sm  px-2">
         © Juegos exclusivos - Todos los derechos reservados {currentYear}
       </p>
     </div>

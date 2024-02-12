@@ -26,6 +26,7 @@ const NuestrosAtributos = () => {
                 loading="lazy"
                 height={100}
                 width={100}
+                className=" w-auto h-auto"
                 src="/assets/icons/nuestrosAtributos/Inteligencia.svg"
                 alt="poker"
               />
@@ -94,7 +95,7 @@ const NuestrosAtributos = () => {
           {SlotCardContent.map((value, index) => (
             <div
               key={index}
-              className="p-2 md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1"
+              className=" md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1"
             >
               <CommonCradContent image={value} buttonContent="Jugar" />
             </div>

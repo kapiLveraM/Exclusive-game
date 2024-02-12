@@ -10,12 +10,12 @@ const Platinum = () => {
             <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] right-[-55%] top-[70%] z-0 hidden lg:block"></div>
 
         <div className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box  rounded-md p-5 lg:py-[79px] lg:px-12 relative z-40">
-          <div className="flex flex-wrap flex-col-reverse lg:flex-row justify-between ">
-            <div className="lg:w-6/12 xl:w-4/12 ">
+          <div className="flex flex-wrap flex-col-reverse lg:flex-row lg:items-center justify-between ">
+            <div className="lg:w-6/12 xl:w-5/12 ">
               <h3 className="font-Anton text-lg text-white">Platinum</h3>
 
 
-              <p className=" mt-4 font-medium text-xs sm:text-sm font-Inter text-white max-w-[364px]">
+              <p className=" mt-4 font-medium text-sm font-Inter opacity-80 text-white max-w-[364px]">
                 Diseño totalmente personalizado. Contáctanos para un presupuesto.
               </p>
               <h2 className="font-Anton text-3xl md:text-5xl text-white mt-8">
@@ -37,7 +37,7 @@ Personalizable             </p>
                 <CommonButton type="submit" content="Comprar ahora" />
               </div>
             </div>
-            <div className="lg:w-6/12 xl:w-8/12 sm:px-3 flex justify-center lg:justify-end">
+            <div className="lg:w-6/12 xl:w-7/12 sm:px-3 flex justify-center lg:justify-end">
               <div className="Nuestras-ofertas-img relative ">
                 <div className="w-36 h-36 absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)]  rounded-full blur-[70px] right-[17%] top-[5%] hidden lg:block"></div>
                 <Image

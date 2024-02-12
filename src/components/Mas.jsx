@@ -14,7 +14,7 @@ const Mas = () => {
               src="/assets/images/mas/seven.webp"
               width={558}
               height={439}
-              className=" w-full "
+              className="w-full"
               alt="seven"
             />
           </div>
@@ -26,7 +26,7 @@ const Mas = () => {
               {masCards.map((value, index) => {
                 return (
                   <div
-                    className="bg-[#041C23] max-w-[374px] flex items-center md:ps-14 ps-3 pe-3 transition-all ease-in-out duration-150 hover:translate-y-[-8px] py-6 gap-[37px] rounded-2xl w-full border-[0.5px] border-[#367E6D]"
+                    className="bg-[#041C23] max-w-[374px] flex items-center md:ps-14 ps-3 pe-3 transition-all ease-in-out duration-300 hover:shadow-white shadow py-6 gap-[37px] rounded-2xl w-full border-[0.5px] border-[#367E6D]"
                     key={index}
                   >
                     {value.icon}

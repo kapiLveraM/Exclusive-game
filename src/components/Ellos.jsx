@@ -14,7 +14,7 @@ const Ellos = () => {
             return (
               <div
                 key={index}
-                className="p-2 md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1 border-none"
+                className=" md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1 border-none"
               >
                 <CommonCradContent image={value} buttonContent="Rcasinovip" />
               </div>

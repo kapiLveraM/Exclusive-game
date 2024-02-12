@@ -91,11 +91,11 @@ export const footerContents = [
   {
     tittle: "Menú principal",
     link: [
-      {  content: "Hogar", path: "/" },
-      { content: "Misión", path: "/" },
-      { content: "Tragamonedas", path: "/" },
-      { content: "Por qué elegirnos", path: "/" },
-      { content: "Ofertas", path: "/" },
+      {  content: "Hogar", path: "#Hogar" },
+      { content: "Misión", path: "#Misión" },
+      { content: "Tragamonedas", path: "#Tragamonedas" },
+      { content: "Por qué elegirnos", path: "#Porqué" },
+      { content: "Ofertas", path: "#Ofertas" },
     ],
   },
   {

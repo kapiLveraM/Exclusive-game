@@ -60,7 +60,8 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
           </Link>
           <Link
             aria-label="dashboard"
-            href="#Porquéelegirnos"
+            href="#Porqué"
+            onClick={() => setActiveNavOverlay(false)}
             className="mobile-nav-li"
           >
            Por qué elegirnos
@@ -68,6 +69,7 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
           <Link
             aria-label="dashboard"
             href="#Ofertas"
+            onClick={() => setActiveNavOverlay(false)}
             className="mobile-nav-li"
           >
            Ofertas

@@ -12,7 +12,7 @@ const Luxury = () => {
               height={79}
               src="/assets/images/luxury/coin.png"
                   alt="coin"
-                  className=" absolute left-52 top-[102px]"
+                  className=" w-auto h-auto absolute left-52 top-[102px]"
               />
               <Image
                loading="lazy"

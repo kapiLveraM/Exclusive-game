@@ -17,7 +17,7 @@ const NuestraMision = () => {
               width={536}
               src="/assets/images/nuestraMision/poker.webp"
               alt="poker"
-              className=" w-full"
+              className=" w-full sm:max-w-[500px] md:w-full"
             />
             <div className=" mt-7 md:mt-[60px]">
               <h2 className=" font-Anton text-3xl md:text-5xl text-white">
@@ -68,11 +68,11 @@ const NuestraMision = () => {
               <Image
                 sizes="100vw"
                 loading="lazy"
-                height={538}
+                height={58}
                 width={536}
                 src="/assets/images/nuestraMision/aviator.webp"
                 alt="poker"
-                className="w-full"
+                className=" w-full sm:max-w-[500px] md:w-full"
               />
             </div>
           </div>

@@ -197,8 +197,8 @@ export const GreenBulb = () => {
           y2="41.6683"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_297_22450"
@@ -208,8 +208,8 @@ export const GreenBulb = () => {
           y2="24.628"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_297_22450"
@@ -219,8 +219,8 @@ export const GreenBulb = () => {
           y2="24.6258"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_297_22450"
@@ -230,8 +230,8 @@ export const GreenBulb = () => {
           y2="30.7107"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_297_22450"
@@ -241,8 +241,8 @@ export const GreenBulb = () => {
           y2="32.2454"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_297_22450"
@@ -252,8 +252,8 @@ export const GreenBulb = () => {
           y2="32.2454"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_297_22450"
@@ -263,8 +263,8 @@ export const GreenBulb = () => {
           y2="36.4731"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_297_22450"
@@ -274,8 +274,8 @@ export const GreenBulb = () => {
           y2="37.6336"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_297_22450"
@@ -285,8 +285,8 @@ export const GreenBulb = () => {
           y2="37.6358"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_297_22450"
@@ -296,8 +296,8 @@ export const GreenBulb = () => {
           y2="53.6852"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_297_22450"
@@ -307,8 +307,8 @@ export const GreenBulb = () => {
           y2="55.384"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <clipPath id="clip0_297_22450">
           <rect
@@ -390,8 +390,8 @@ export const StartMan = () => {
           y2="17.1965"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_297_22466"
@@ -401,8 +401,8 @@ export const StartMan = () => {
           y2="22.7524"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_297_22466"
@@ -412,8 +412,8 @@ export const StartMan = () => {
           y2="22.8227"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_297_22466"
@@ -423,8 +423,8 @@ export const StartMan = () => {
           y2="31.8369"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_297_22466"
@@ -434,8 +434,8 @@ export const StartMan = () => {
           y2="31.8227"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_297_22466"
@@ -445,8 +445,8 @@ export const StartMan = () => {
           y2="31.8745"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_297_22466"
@@ -456,8 +456,8 @@ export const StartMan = () => {
           y2="41.1411"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_297_22466"
@@ -467,8 +467,8 @@ export const StartMan = () => {
           y2="41.9795"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_297_22466"
@@ -478,8 +478,8 @@ export const StartMan = () => {
           y2="41.9802"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_297_22466"
@@ -489,8 +489,8 @@ export const StartMan = () => {
           y2="58.4146"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_297_22466"
@@ -500,8 +500,8 @@ export const StartMan = () => {
           y2="53.0442"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_297_22466"
@@ -511,8 +511,8 @@ export const StartMan = () => {
           y2="53.0421"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
       </defs>
     </svg>
@@ -560,8 +560,8 @@ export const GreenValue = () => {
           y2="34.235"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_297_22483"
@@ -571,8 +571,8 @@ export const GreenValue = () => {
           y2="39.0054"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_297_22483"
@@ -582,8 +582,8 @@ export const GreenValue = () => {
           y2="53.6121"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_297_22483"
@@ -593,8 +593,8 @@ export const GreenValue = () => {
           y2="38.6228"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_297_22483"
@@ -604,8 +604,8 @@ export const GreenValue = () => {
           y2="44.7923"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <clipPath id="clip0_297_22483">
           <rect
