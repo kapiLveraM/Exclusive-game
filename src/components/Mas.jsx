@@ -5,7 +5,7 @@ import { masCards } from "./common/Helper";
 const Mas = () => {
   return (
     <div className=" relative">
-      <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] left-[-20px] top-[-30%]"></div>
+      <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] left-[-20px] top-[-50%]"></div>
       <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] right-[-20%] bottom-[-40%]"></div>
       <div className="container max-w-[1140px] mx-auto px-3 pb-20 mt-36 lg:pb-0 relative z-20">
         <div className="flex flex-wrap items-center justify-center">

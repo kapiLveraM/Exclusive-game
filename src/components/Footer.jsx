@@ -25,41 +25,40 @@ const Footer = () => {
               dedicadas al desarrollo de multiplataformas para juegos de azar
             </p>
             <div className="flex gap-3 items-center">
-              <Link href="https://www.instagram.com/accounts/login/">
+              <Link href="https://www.instagram.com/accounts/login/" className=" hover:scale-110 transition-all duration-200 ease-in-out">
                 <Instagram />
-               
-            </Link>
-              <Link href="https://www.facebook.com/" target="_blank">
+              </Link>
+              <Link href="https://www.facebook.com/" target="_blank" className=" hover:scale-110 transition-all duration-200 ease-in-out">
                 <FaceBook />
-            </Link>
-              <Link href="https://www.linkedin.com/" target="_blank">
-<LinkedIn/>
+              </Link>
+              <Link href="https://www.linkedin.com/" target="_blank" className=" hover:scale-110 transition-all duration-200 ease-in-out">
+                <LinkedIn />
               </Link>
             </div>
           </div>
           <div className="xl:w-8/12 w-full flex  flex-wrap xl:mt-0 mt-5">
-            {footerContents.map((value) => {
+            {footerContents.map((value, i) => {
               return (
                 <ul
                   className="md:w-4/12 sm:w-6/12 flex flex-col w-full items-start gap-2 xl:ps-10 md:mb-0 mb-5"
-                  key={value}
+                  key={i}
                 >
                   <li className=" font-Inter font-bold text-xs sm:text-sm text-white mb-2">
                     <Link href="">{value.tittle}</Link>
-                    
                   </li>
-                  {value.link.map((subValue, subIndex) => {
+                  {value.link.map((subValue, index) => {
                     return (
-                      <Link href={subValue.path}>
-                        <li
-                          className="flex items-center gap-2 opacity-70 text-white font-medium text-xs sm:text-sm hover:opacity-100 duration-100 ease-in-out transition-all"
-                          key={subIndex}
-                        >
-                          {subValue.icon} {subValue.content}
-                        </li>
-                      </Link>
+                      <div key={index}>
+                          <li >
+                        <Link href={subValue.path}  className="flex items-center gap-2 opacity-70 text-white font-medium text-xs sm:text-sm hover:opacity-100 duration-100 ease-in-out transition-all">
+                            {subValue.icon} {subValue.content}
+                        </Link>
+                          </li>
+                      </div>
                     );
                   })}
+               
+             
                 </ul>
               );
             })}

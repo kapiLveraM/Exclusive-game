@@ -7,7 +7,7 @@ const NuestraMision = () => {
   return (
     <div id="Misión" className="sm:pt-20 sm:pb-24 relative ">
       <div className=" w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] left-[-20px] top-16"></div>
-      <div className=" w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] right-[-22%] bottom-[-28%] hidden lg:block"></div>
+      <div className=" w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] right-[-22%] bottom-[-38%] hidden lg:block"></div>
       <div className="container xl:max-w-[1140px] mx-auto px-3">
         <div className=" flex flex-wrap relative z-10">
           <div className=" w-full md:w-6/12 sm:px-3 lg:ps-3 lg:pr-8">
