@@ -11,7 +11,7 @@ const NuestrosAtributos = () => {
         <h2 className=" font-Anton text-3xl md:text-5xl text-black text-center lg:mt-8">
           Nuestros Atributos de Marca
         </h2>
-        <div className=" flex flex-wrap justify-center md:justify-between mt-[60px] relative">
+        <div className=" flex flex-wrap justify-center md:justify-between mt-8 md:mt-[60px] relative">
          
 
           <div className=" w-full md:w-2/6 lg:w-1/4 sm:px-3">
@@ -39,7 +39,7 @@ const NuestrosAtributos = () => {
               </p>
             </div>
           </div>
-          <div className=" w-full md:w-2/6 lg:w-1/4 sm:px-3 mb-10 mt-10  sm:my-0">
+          <div className=" w-full md:w-2/6 lg:w-1/4 sm:px-3 my-10  md::my-0">
             <div className=" relative lg:max-w-[263px] text-center flex flex-col justify-center items-center">
                 <Image  loading="lazy"
                 height={273}
@@ -91,7 +91,7 @@ const NuestrosAtributos = () => {
             experiencias, garantizando la máxima seguridad con operaciones
             protegidas por cifrado SSL de 256 bits.
           </p>
-          <div className="flex flex-wrap justify-center mt-8 md:mt-14 pt-1">
+          <div className="flex flex-wrap justify-center mt-8 md:mt-14 pt-1 ">
           {SlotCardContent.map((value, index) => (
             <div
               key={index}

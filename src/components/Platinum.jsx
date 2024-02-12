@@ -9,7 +9,7 @@ const Platinum = () => {
             <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] left-[-20%] top-[-30%] z-0 hidden lg:block"></div>
             <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] right-[-55%] top-[70%] z-0 hidden lg:block"></div>
 
-        <div className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box  rounded-md p-5 lg:py-[79px] lg:px-12 relative z-40">
+        <div className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box rounded-2xl p-5 lg:py-[79px] lg:px-12 relative z-40">
           <div className="flex flex-wrap flex-col-reverse lg:flex-row lg:items-center justify-between ">
             <div className="lg:w-6/12 xl:w-5/12 ">
               <h3 className="font-Anton text-lg text-white">Platinum</h3>

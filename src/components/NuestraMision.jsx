@@ -9,8 +9,8 @@ const NuestraMision = () => {
       <div className=" w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] left-[-20px] top-16"></div>
       <div className=" w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] right-[-22%] bottom-[-38%] hidden lg:block"></div>
       <div className="container xl:max-w-[1140px] mx-auto px-3">
-        <div className=" flex flex-wrap relative z-10">
-          <div className=" w-full md:w-6/12 sm:px-3 lg:ps-3 lg:pr-8">
+        <div className=" flex justify-center flex-wrap relative z-10">
+          <div className=" w-full sm:w-10/12 md:w-6/12 sm:px-3 lg:ps-3 lg:pr-8">
             <Image
               loading="lazy"
               height={538}
@@ -43,7 +43,7 @@ const NuestraMision = () => {
           </div>
           <div className=" top-[45%] left-[35%] w-[234px] h-[234px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[90px] z-[-1]"></div>
 
-          <div className=" w-full md:w-6/12 mt-9 md:mt-0 sm:px-3 lg:ps-8 lg:pr-3 flex flex-col-reverse md:block">
+          <div className=" w-full sm:w-10/12 md:w-6/12 mt-9 md:mt-0 sm:px-3 lg:ps-8 lg:pr-3 flex flex-col-reverse md:block">
             <div className="mt-7 md:mt-0">
               <h2 className=" font-Anton  text-white text-3xl md:text-5xl">
                 Nuestra Misión
@@ -72,7 +72,7 @@ const NuestraMision = () => {
                 width={536}
                 src="/assets/images/nuestraMision/aviator.webp"
                 alt="poker"
-                className=" w-full sm:max-w-[500px] md:w-full"
+                className=" w-full sm:max-w-[500px] md:w-full "
               />
             </div>
           </div>

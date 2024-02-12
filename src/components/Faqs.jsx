@@ -62,7 +62,7 @@ const Faqs = () => {
           {accordianContent.map((value, index) => (
             <Accordion
               key={index}
-              className="flex flex-col justify-between border-[0.5px] border-[#80898D] rounded-md px-6 py-4 bg-darkBlue overflow-hidden ease-out transition-all duration-300 mt-8 relative"
+              className="flex flex-col justify-between border-[0.5px] border-[#80898D] rounded-md px-5 py-4 bg-darkBlue overflow-hidden ease-out transition-all duration-300 mt-8 relative"
               open={isAccordionOpen === index}
               icon={<Icon id={index} open={isAccordionOpen} />}
             >

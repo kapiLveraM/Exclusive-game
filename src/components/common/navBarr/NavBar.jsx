@@ -39,7 +39,7 @@ const NavBar = () => {
                                         width={43}
                                         src="/assets/icons/main-logo/logo.svg"
                                         alt="logoImg"
-                                        className=" w-full"
+                                        className="w-full max-w-[150px] md:max-w-[210px]"
                                     />
                                 </Link>
                             </div>

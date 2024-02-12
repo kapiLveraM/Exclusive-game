@@ -11,7 +11,7 @@ const Hero = () => {
           <div className=" absolute bg-black blur h-14 w-full bottom-[-20px]"></div>
           <div className="container xl:max-w-[1140px] mx-auto px-3">
             <div className="flex flex-col items-center">
-              <h1 className=" uppercase text-5xl md:text-xxl  sm:leading-[120%] text-white font-Anton max-w-lg mx-auto text-center">
+              <h1 className=" uppercase text-4xl sm:text-5xl md:text-xxl  sm:leading-[120%] text-white font-Anton max-w-lg mx-auto text-center">
                 Exclusive Games. Pasión por ganar
               </h1>
               <p className="text-center font-medium text-xs sm:text-sm font-Inter text-white max-w-[727px] mx-auto opacity-80 mt-4">

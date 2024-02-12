@@ -5,14 +5,14 @@ import CommonButtonLiner from "./common/button/CommonButtonLiner";
 const Luxury = () => {
   return (
     <div className="container max-w-[1140px] mx-auto px-3 relative z-50">
-          <div className="bg-[url('/assets/images/background/Luxury.png')] py-[46px] bg-luxury bg-no-repeat text-center flex justify-center flex-col items-center px-3 relative">
+          <div className="bg-[url('/assets/images/background/Luxury.png')] py-[46px] bg-cover border-[0.5px] border-[#FFFFFF80] sm:border-none rounded-2xl sm:bg-[100%_100%] bg-no-repeat text-center flex justify-center flex-col items-center px-3 relative">
               <Image
                loading="lazy"
               width={78}
               height={79}
               src="/assets/images/luxury/coin.png"
                   alt="coin"
-                  className=" w-auto h-auto absolute left-52 top-[102px]"
+                  className=" w-auto h-auto absolute left-52 top-[102px] hidden lg:block"
               />
               <Image
                loading="lazy"
@@ -36,7 +36,7 @@ const Luxury = () => {
               height={69}
               src="/assets/images/luxury/dei.png"
                   alt="coin"
-                  className=" absolute right-52 bottom-32"
+                  className=" absolute right-52 bottom-32 hidden lg:block"
               />
         <h3 className=" font-Anton font-normal lg:text-start text-center text-white text-lg  leading-[97%]">
           Luxury{" "}

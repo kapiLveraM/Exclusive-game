@@ -20,7 +20,7 @@ const Footer = () => {
               className=" w-full mb-4 max-w-[210px]"
               alt="logo"
             />
-            <p className=" text-white font-Anton font-medium text-sm mb-6 opacity-70 text-center xl:text-start max-w-[534px] mx-auto">
+            <p className=" text-white font-Inter font-medium text-sm mb-6 opacity-70 text-center xl:text-start max-w-[534px] mx-auto">
               En Exclusive Games somos un equipo apasionado de personas
               dedicadas al desarrollo de multiplataformas para juegos de azar
             </p>
@@ -40,7 +40,7 @@ const Footer = () => {
             {footerContents.map((value, i) => {
               return (
                 <ul
-                  className="md:w-4/12 sm:w-6/12 flex flex-col w-full items-start gap-2 xl:ps-10 md:mb-0 mb-5"
+                  className="md:w-4/12 w-6/12 flex flex-col w-full items-start gap-2 xl:ps-10 md:mb-0 mb-5"
                   key={i}
                 >
                   <li className=" font-Inter font-bold text-xs sm:text-sm text-white mb-2">
