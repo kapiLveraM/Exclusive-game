@@ -13,7 +13,7 @@ const Hero = () => {
         {/* Hero content */}
         <div className="min-h-[85vh] lg:min-h-screen flex items-center relative">
           {/* Overlay */}
-          <div className="absolute bg-darkBlack h-14 w-full bottom-[-20px]"></div>
+          <div className="absolute bg-darkBlack h-16 w-full bottom-[-35px] blur-xl"></div>
           
           {/* Container */}
           <div className="container xl:max-w-[1140px] mx-auto px-3">

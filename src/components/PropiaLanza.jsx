@@ -15,7 +15,7 @@ const PropiaLanza = () => {
       {/* Background container with image and styling */}
       <div className="bg-propiaLanza bg-size-full bg-no-repeat flex flex-col items-center justify-center rounded-2xl border-[0.5px] border-MagentaYellow xl:py-[104px] md:py-20 py-32 !px-2">
         {/* Title */}
-        <p className="text-white font-normal text-2xl sm:text-3xl font-Anton md:mb-10 mb-5 text-center ">
+        <p className="text-white font-normal text-2xl sm:text-lg font-Anton md:mb-10 mb-5 text-center ">
           Lanza tu propia plataforma en sólo 2 semanas
         </p>
         {/* Button component */}
