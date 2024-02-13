@@ -151,7 +151,10 @@ const NuestrosAtributos = () => {
             protegidas por cifrado SSL de 256 bits.
           </p>
           {/* Slots cards */}
-          <div className="flex flex-wrap justify-center mt-5 sm:mt-8 md:mt-14 pt-1">
+          <div data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+                data-aos-delay="400" className="flex flex-wrap justify-center mt-5 sm:mt-8 md:mt-14 pt-1">
             {SlotCardContent.map((value, index) => (
               <div
                 key={index}
