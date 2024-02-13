@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
 import { JackpotServices } from "./common/Helper";
-import { GreenArrowJackpot } from "./common/icons/common";
 import Lanza from "./Lanza";
 import Juegosen from "./Juegosen";
+import { GreenArrowJackpot } from "./common/Icons";
 
 // Define Jackpot component
 const Jackpot = () => {
@@ -37,7 +37,7 @@ const Jackpot = () => {
               <p className="font-Anton font-normal text-white xl:text-[47px] text-3xl mb-4 leading-[97%]">
                 Potenciando sus elecciones
               </p>
-              <p className="font-inter font-medium md:text-sm text-xs text-white opacity-70 mb-6">
+              <p className="font-inter font-medium md:text-base text-sm text-white opacity-70 mb-6">
                 Con Exclusive Game lo mejor está de tu lado.
               </p>
               {/* Services */}
@@ -46,14 +46,14 @@ const Jackpot = () => {
                   return (
                     <div className="flex items-center" key={index}>
                       <GreenArrowJackpot />
-                      <p className="ms-2 font-Inter font-medium md:text-sm text-xs text-white opacity-70 max-w-[415px]">
+                      <p className="ms-2 font-Inter font-medium md:text-base text-sm text-white opacity-70 max-w-[415px]">
                         {title}
                       </p>
                     </div>
                   );
                 })}
               </div>
-              <p className="font-Inter font-medium md:text-sm text-xs text-white opacity-70">
+              <p className="font-Inter font-medium md:text-base text-sm text-white opacity-70">
                 Te reintegramos todo lo invertido en fichas en la moneda que elijas.
               </p>
             </div>

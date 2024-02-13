@@ -1,6 +1,6 @@
 import React from "react";
 import { Juegos } from "./common/Helper";
-import Crads from "./common/allCards/Crads";
+import Cards from "./common/allCards/Cards";
 
 // Juegos component for displaying live games
 const Juegosen = () => {
@@ -26,7 +26,7 @@ const Juegosen = () => {
               className="md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1 border-none"
             >
               {/* CommonCardContent component to display game */}
-              <Crads image={value} titleText="Reproducir ahora" />
+              <Cards image={value} titleText="Reproducir ahora" />
               {/* "Play now" button */}
             </div>
           );

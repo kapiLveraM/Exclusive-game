@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
-import { BackTop } from "./icons/common";
+import { BackTop } from "./Icons";
 
 const BackToTop = () => {
   const [isVisible, setIsVisible] = useState(false);

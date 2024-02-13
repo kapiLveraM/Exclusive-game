@@ -1,12 +1,12 @@
 import React from "react";
-import { ButtonGreen } from "../icons/common";
+import { ButtonGreen } from "../Icons";
 
 const ButtonLiner = (props) => {
   const {title} = props;
   return (
     <div className=" relative group">
       <button
-        className={`font-inter font-bold text-sm bg-gradient-to-bl from-lightSky to-lightGreen text-darkBlack  rounded-[41px] p-[13px_46px] relative z-10 `}
+        className={`font-inter font-bold text-base bg-gradient-to-bl from-lightSky to-lightGreen text-darkBlack  rounded-[41px] p-[13px_46px] relative z-10 `}
       >
         {title}
       </button>

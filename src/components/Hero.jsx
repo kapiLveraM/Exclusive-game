@@ -36,7 +36,7 @@ const Hero = () => {
                 data-aos-delay="600"
                 data-aos-easing="linear"
                 data-aos-duration="800"
-                className="text-center font-medium text-xs sm:text-sm font-Inter text-white max-w-[727px] mx-auto opacity-80 mt-4"
+                className="text-center font-medium text-sm sm:text-base font-Inter text-white max-w-[727px] mx-auto opacity-80 mt-4"
               >
                 En Exclusive Games somos un equipo apasionado de personas
                 dedicados al desarrollo de multiplataformas para juegos de azar.

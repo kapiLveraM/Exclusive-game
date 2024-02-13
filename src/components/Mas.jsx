@@ -53,7 +53,7 @@ const Mas = () => {
                       <p className="text-white font-normal text-3xl font-Anton">
                         {value.title}
                       </p>
-                      <p className="font-medium text-xs sm:text-sm text-white">
+                      <p className="font-medium text-sm sm:text-base text-white">
                         {value.description}
                       </p>
                     </div>

@@ -2,7 +2,7 @@ import Image from "next/image"; // Importing Image component from Next.js
 import React from "react"; // Importing React library
 import Link from "next/link"; // Importing Link component from Next.js
 import { FooterLinks, footerIcon } from "./common/Helper"; // Importing FooterLinks and footerIcon from common/Helper
-import { FaceBook, Instagram, LinkedIn } from "./common/icons/common"; // Importing FaceBook, Instagram, and LinkedIn icons from common/icons/common
+import { FaceBook, Instagram, LinkedIn } from "./common/Icons"; // Importing FaceBook, Instagram, and LinkedIn icons from common/icons/common
 
 // Footer component
 const Footer = () => {
@@ -31,7 +31,7 @@ const Footer = () => {
               className="w-full mb-4 max-w-[210px]"
               alt="logo"
             />
-            <p className="text-white font-Inter font-medium text-sm mb-6 opacity-70 text-center xl:text-start max-w-[534px] mx-auto">
+            <p className="text-white font-Inter font-medium text-base mb-6 opacity-70 text-center xl:text-start max-w-[534px] mx-auto">
               {" "}
               {/* Description */}
               En Exclusive Games somos un equipo apasionado de personas
@@ -78,7 +78,7 @@ const Footer = () => {
                   className="md:w-4/12 w-6/12 flex flex-col items-start gap-2 xl:ps-10 md:mb-0 mb-5" // Styling for each column
                   key={i}
                 >
-                  <li className="font-Inter font-bold text-xs sm:text-sm text-white mb-2">
+                  <li className="font-Inter font-bold text-sm sm:text-base text-white mb-2">
                     {" "}
                     {/* Footer section title */}
                     <Link href="">{value.title}</Link>{" "}
@@ -90,7 +90,7 @@ const Footer = () => {
                       <li key={index}>
                         <Link
                           href={subValue.path}
-                          className="flex items-center gap-2 opacity-70 text-white font-medium text-xs sm:text-sm hover:opacity-100 duration-100 ease-in-out transition-all"
+                          className="flex items-center gap-2 opacity-70 text-white font-medium text-sm sm:text-base hover:opacity-100 duration-100 ease-in-out transition-all"
                         >
                           {" "}
                           {/* Footer link */}
@@ -106,7 +106,7 @@ const Footer = () => {
         </div>
       </div>
       {/* Footer bottom */}
-      <p className="font-Inter flex items-center justify-center py-5 border-t-[1px] border-EerieBlack text-center gap-2 opacity-50 text-white font-medium text-xs sm:text-sm px-2">
+      <p className="font-Inter flex items-center justify-center py-5 border-t-[1px] border-EerieBlack text-center gap-2 opacity-50 text-white font-medium text-sm sm:text-base px-2">
         © Juegos exclusivos - Todos los derechos reservados {currentYear}{" "}
         {/* Footer text with current year */}
       </p>

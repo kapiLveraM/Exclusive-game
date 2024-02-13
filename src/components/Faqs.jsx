@@ -84,13 +84,13 @@ const Faqs = () => {
                 className="py-0"
               >
                 {/* Accordion header title */}
-                <h2 className="text-start text-white flex font-Anton font-normal leading-[140%] md:leading-[150%] text-sm mb-0">
+                <h2 className="text-start text-white flex font-Anton font-normal leading-[140%] md:leading-[150%] text-base sm:text-md mb-0">
                   {value.title}
                 </h2>
               </AccordionHeader>
               <AccordionBody className="pt-2 pb-0">
                 {/* Accordion body content */}
-                <p className="font-Inter font-medium text-xs md:text-sm max-w-[740px] text-white opacity-70 leading-[150%]">
+                <p className="font-Inter font-medium text-sm md:text-base max-w-[740px] text-white opacity-70 leading-[150%]">
                   {value.description}
                 </p>
               </AccordionBody>

@@ -1,6 +1,6 @@
 import React from "react";
 import { EllosEligieron } from "./common/Helper";
-import Crads from "./common/allCards/Crads";
+import Cards from "./common/allCards/Cards";
 
 // Component definition
 const Ellos = () => {
@@ -33,8 +33,8 @@ const Ellos = () => {
                 key={index}
                 className="md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1 border-none"
               >
-                {/* Rendering Crads component */}
-                <Crads image={value} titleText="Rcasinovip" />
+                {/* Rendering Cards component */}
+                <Cards image={value} titleText="Rcasinovip" />
               </div>
             );
           })}
@@ -44,7 +44,7 @@ const Ellos = () => {
           data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="500"
-          className="font-Inter font-semibold text-xs sm:text-sm text-white ma-w-[ 883px] mx-auto text-center mt-6 md:mt-[38px]"
+          className="font-Inter font-semibold text-sm sm:text-base text-white ma-w-[ 883px] mx-auto text-center mt-6 md:mt-[38px]"
         >
           Clientes satisfechos que confiaron en Exclusive Games y han disfrutado
           de emocionantes experiencias de juego.

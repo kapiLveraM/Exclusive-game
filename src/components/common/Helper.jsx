@@ -1,4 +1,4 @@
-import { FaceBook, GreenBulb, GreenValue, Instagram, LinkedIn, Mail, StartMan, Telephone } from "./icons/common";
+import { GreenBulb, GreenValue, Mail, StartMan, Telephone } from "./Icons";
 
 export const Slot = [
   "/assets/images/slots/jetX.webp",

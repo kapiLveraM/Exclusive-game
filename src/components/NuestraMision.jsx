@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { GreenArrow } from "./common/icons/common";
+import { GreenArrow } from "./common/Icons";
 
 // Define NuestraMision component
 const NuestraMision = () => {
@@ -40,7 +40,7 @@ const NuestraMision = () => {
               <h2 className="font-Anton text-3xl md:text-5xl text-white">
                 Nuestra Visión
               </h2>
-              <p className="font-Inter font-medium text-xs sm:text-sm mt-3 sm:mt-4 mb-5 sm:mb-6 text-white opacity-80 max-w-[444px] leading-7">
+              <p className="font-Inter font-medium text-sm sm:text-base mt-3 sm:mt-4 mb-5 sm:mb-6 text-white opacity-80 max-w-[444px] leading-7">
                 Nuestra visión es ser líderes indiscutibles en la industria de
                 los juegos de azar y llevar nuestra pasión por el
                 entretenimiento más allá de las fronteras. Imagina un mundo
@@ -49,7 +49,7 @@ const NuestraMision = () => {
               </p>
               <Link
                 href="#"
-                className="font-Inter font-bold text-green text-sm flex items-center group"
+                className="font-Inter font-bold text-green text-base flex items-center group"
               >
                 Aprende más{" "}
                 <span className="ms-2 group-hover:ms-4 transition-all ease-in-out duration-150">
@@ -69,7 +69,7 @@ const NuestraMision = () => {
               <h2 className="font-Anton text-white text-3xl md:text-5xl">
                 Nuestra Misión
               </h2>
-              <p className="font-Inter font-medium text-xs sm:text-sm mt-3 sm:mt-4 mb-4 sm:mb-6 text-white opacity-80 max-w-[444px] leading-7">
+              <p className="font-Inter font-medium text-sm sm:text-base mt-3 sm:mt-4 mb-4 sm:mb-6 text-white opacity-80 max-w-[444px] leading-7">
                 Nuestra misión es simple pero poderosa: proporcionarte la más
                 amplia gama de soluciones de entretenimiento de alta calidad y
                 rentabilidad. Estamos comprometidos a elevar tus expectativas y
@@ -77,7 +77,7 @@ const NuestraMision = () => {
               </p>
               <Link
                 href="#"
-                className="font-Inter font-bold text-green text-sm flex items-center group"
+                className="font-Inter font-bold text-green text-base flex items-center group"
               >
                 Aprende más{" "}
                 <span className="ms-2 group-hover:ms-4 transition-all ease-in-out duration-150">

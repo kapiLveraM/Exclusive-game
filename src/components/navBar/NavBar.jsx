@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ButtonWhite from "../common/button/ButtonWhite";
 import MobileNav from "./MobileNav";
-import { HeaderCross, OpenNav } from "../common/icons/common";
+import { HeaderCross, OpenNav } from "../common/Icons";
 
 // Define NavBar component
 const NavBar = () => {
@@ -51,19 +51,19 @@ const NavBar = () => {
                         </div>
                         {/* Navigation links */}
                         <div className="hidden lg:flex gap-7">
-                            <Link href="#Hogar" className="opacity-80 hover:opacity-100 transition-all ease-in-out duration-200 font-Inter font-medium text-sm text-white">
+                            <Link href="#Hogar" className="opacity-80 hover:opacity-100 transition-all ease-in-out duration-200 font-Inter font-medium text-base text-white">
                                 Hogar
                             </Link>
-                            <Link href="#Misión" className="opacity-80 hover:opacity-100 transition-all ease-in-out duration-200 font-Inter font-medium text-sm text-white">
+                            <Link href="#Misión" className="opacity-80 hover:opacity-100 transition-all ease-in-out duration-200 font-Inter font-medium text-base text-white">
                                 Misión
                             </Link>
-                            <Link href="#Tragamonedas" className="opacity-80 hover:opacity-100 transition-all ease-in-out duration-200 font-Inter font-medium text-sm text-white">
+                            <Link href="#Tragamonedas" className="opacity-80 hover:opacity-100 transition-all ease-in-out duration-200 font-Inter font-medium text-base text-white">
                                 Tragamonedas
                             </Link>
-                            <Link href="#Porqué" className="opacity-80 hover:opacity-100 transition-all ease-in-out duration-200 font-Inter font-medium text-sm text-white">
+                            <Link href="#Porqué" className="opacity-80 hover:opacity-100 transition-all ease-in-out duration-200 font-Inter font-medium text-base text-white">
                                 Por qué elegirnos
                             </Link>
-                            <Link href="#Ofertas" className="opacity-80 hover:opacity-100 transition-all ease-in-out duration-200 font-Inter font-medium text-sm text-white">
+                            <Link href="#Ofertas" className="opacity-80 hover:opacity-100 transition-all ease-in-out duration-200 font-Inter font-medium text-base text-white">
                                 Ofertas
                             </Link>
                             {/* Other navigation links */}

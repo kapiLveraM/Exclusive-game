@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Slot } from "./common/Helper";
 import ButtonLiner from "./common/button/ButtonLiner";
-import Crads from "./common/allCards/Crads";
+import Cards from "./common/allCards/Cards";
 
 // Define NuestrosAtributos component
 const NuestrosAtributos = () => {
@@ -52,7 +52,7 @@ const NuestrosAtributos = () => {
                 data-aos-easing="linear"
                 data-aos-duration="800"
                 data-aos-delay="400"
-                className="font-medium text-xs sm:text-sm font-Inter text-darkBlack opacity-80 max-w-[263px]"
+                className="font-medium text-sm sm:text-base font-Inter text-darkBlack opacity-80 max-w-[263px]"
               >
                 Comprendemos a la perfección los gustos de las personas y el
                 mundo del gaming.
@@ -94,7 +94,7 @@ const NuestrosAtributos = () => {
                 data-aos-easing="linear"
                 data-aos-duration="800"
                 data-aos-delay="400"
-                className="font-medium text-xs sm:text-sm font-Inter text-darkBlack opacity-80 max-w-[235px]"
+                className="font-medium text-sm sm:text-base font-Inter text-darkBlack opacity-80 max-w-[235px]"
               >
                 Somos creadores de cambios que exploran nuevas formas de
                 entretenimiento.
@@ -128,7 +128,7 @@ const NuestrosAtributos = () => {
                 data-aos-easing="linear"
                 data-aos-duration="800"
                 data-aos-delay="400"
-                className="font-medium text-xs sm:text-sm font-Inter text-darkBlack opacity-80 max-w-[245px]"
+                className="font-medium text-sm sm:text-base font-Inter text-darkBlack opacity-80 max-w-[245px]"
               >
                 Pensamos fuera de la caja para estar siempre un paso adelante.
               </p>
@@ -142,7 +142,7 @@ const NuestrosAtributos = () => {
             Slots
           </h2>
           {/* Description */}
-          <p className="text-center font-medium text-xs sm:text-sm font-Inter text-darkBlack max-w-[904px] mx-auto opacity-80 mt-4">
+          <p className="text-center font-medium text-sm sm:text-base font-Inter text-darkBlack max-w-[904px] mx-auto opacity-80 mt-4">
             En Exclusive Games, ofrecemos una selección de más de 600 juegos de
             los principales desarrolladores, como Aristocrat, Amatic, EGT,
             Novomatic, IGT, Playtech, Igrosoft y Tom Horn. Nuestro equipo
@@ -160,7 +160,7 @@ const NuestrosAtributos = () => {
                 key={index}
                 className="md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1 rounded-lg"
               >
-                <Crads image={value} titleText="Jugar" />
+                <Cards image={value} titleText="Jugar" />
               </div>
             ))}
           </div>

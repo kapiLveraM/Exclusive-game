@@ -23,8 +23,6 @@ module.exports = {
         Inter: "'Inter', sans-serif",
       },
         fontSize: {
-        xs: "14px",
-        sm: "16px",
         md: "20px",
         lg: "32px",
         xxl: "72px",
@@ -39,8 +37,8 @@ module.exports = {
         Himalaya: "#367E6D",
         CornflowerBlue: "#67E0B0",
       MauveSeductress:"#FFFFFF1A",
-      "darkBlack": "#00141B",
-        "green": "#7AF57A",
+      darkBlack: "#00141B",
+        green: "#7AF57A",
            "dark-gray": "#9898A3",
         
       }

@@ -43,7 +43,7 @@ const Luxury = () => {
         <h3 className=" font-Anton font-normal lg:text-start text-center text-white text-lg  leading-[97%]">
           Luxury{" "}
         </h3>
-        <p className=" font-Inter font-medium text-xs sm:text-sm mt-3 sm:mt-4 mb-5 sm:mb-6 text-white opacity-80 max-w-[391px] sm:leading-7">
+        <p className=" font-Inter font-medium text-sm sm:text-base mt-3 sm:mt-4 mb-5 sm:mb-6 text-white opacity-80 max-w-[391px] sm:leading-7">
           lleva tu experiencia de juego al siguiente nivel. Con todas las
           características de la versión Silver y la potencia adicional de la
           tecnología React .
@@ -63,7 +63,7 @@ const Luxury = () => {
               src="/assets/icons/nuestrasOfertas/biCheckAll.svg"
               alt="bi_check"
             />
-            <p className="font-medium text-xs sm:text-sm sm:leading-6 font-Inter text-white opacity-80 max-w-[387px]">
+            <p className="font-medium text-sm sm:text-base sm:leading-6 font-Inter text-white opacity-80 max-w-[387px]">
               Disponibles Payku, Pix, Depósitos en Euros, Criptomonedas, Cargas
               manuales
             </p>
@@ -76,7 +76,7 @@ const Luxury = () => {
               src="/assets/icons/nuestrasOfertas/biCheckAll.svg"
               alt="bi_check"
             />
-            <p className="font-medium text-xs sm:text-sm sm:leading-6 font-Inter text-white opacity-80 max-w-[387px]">
+            <p className="font-medium text-sm sm:text-base sm:leading-6 font-Inter text-white opacity-80 max-w-[387px]">
               Control de RTP (controlás qué porcentaje pagar)
             </p>
           </div>
@@ -88,7 +88,7 @@ const Luxury = () => {
               src="/assets/icons/nuestrasOfertas/biCheckAll.svg"
               alt="bi_check"
             />
-            <p className="font-medium text-xs sm:text-sm sm:leading-6 font-Inter text-white opacity-80 max-w-[387px]">
+            <p className="font-medium text-sm sm:text-base sm:leading-6 font-Inter text-white opacity-80 max-w-[387px]">
               Bonos Editables, Happy Hours, Jackpots, Códigos Promocionales
               Regalo
             </p>
@@ -101,7 +101,7 @@ const Luxury = () => {
               src="/assets/icons/nuestrasOfertas/biCheckAll.svg"
               alt="bi_check"
             />
-            <p className="font-medium text-xs sm:text-sm sm:leading-6 font-Inter text-white opacity-80 max-w-[387px]">
+            <p className="font-medium text-sm sm:text-base sm:leading-6 font-Inter text-white opacity-80 max-w-[387px]">
               Aplicación para Android y Windows de regalo.
             </p>
           </div>
@@ -113,7 +113,7 @@ const Luxury = () => {
               src="/assets/icons/nuestrasOfertas/biCheckAll.svg"
               alt="bi_check"
             />
-            <p className="font-medium text-xs sm:text-sm sm:leading-6 font-Inter text-white opacity-80 max-w-[387px]">
+            <p className="font-medium text-sm sm:text-base sm:leading-6 font-Inter text-white opacity-80 max-w-[387px]">
               Tiempo de creación 2 a 3 semanas{" "}
             </p>
           </div>
