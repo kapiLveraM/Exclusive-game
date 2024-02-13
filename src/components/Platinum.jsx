@@ -1,6 +1,6 @@
 import React from "react";
-import CommonButton from "./common/button/CommonButton";
 import Image from "next/image";
+import ButtonWhite from "./common/button/ButtonWhite";
 
 // Component definition
 const Platinum = () => {
@@ -8,12 +8,12 @@ const Platinum = () => {
     <div
       data-aos="fade-up"
       data-aos-easing="linear"
-      data-aos-duration="1000"
+      data-aos-duration="800"
       className="container xl:max-w-[1140px] px-3 mx-auto mt-20 relative"
     >
       {/* Background circles */}
-      <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] left-[-20%] top-[-30%] z-0 hidden lg:block"></div>
-      <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] right-[-55%] top-[70%] z-0 hidden lg:block"></div>
+      <div className="w-[484px] h-[484px] absolute  bg-gradient-to-bl from-lightSky to-lightGreen opacity-50 rounded-full blur-[200px] left-[-20%] top-[-30%] z-0 hidden lg:block"></div>
+      <div className="w-[484px] h-[484px] absolute bg-gradient-to-bl from-lightSky to-lightGreen opacity-50 rounded-full blur-[200px] right-[-55%] top-[70%] z-0 hidden lg:block"></div>
 
       {/* Content box */}
       <div className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box rounded-2xl px-5 py-11 lg:py-[79px] lg:px-12 relative z-40">
@@ -45,14 +45,14 @@ const Platinum = () => {
             </div>
             {/* Buy button */}
             <div className="mt-10">
-              <CommonButton type="submit" content="Comprar ahora" />
+              <ButtonWhite type="submit" title="Comprar ahora" />
             </div>
           </div>
           {/* Right side with image */}
           <div className="lg:w-6/12 xl:w-7/12 sm:px-3 flex justify-center lg:justify-end">
             <div className="Nuestras-ofertas-img relative">
               {/* Background circle */}
-              <div className="w-36 h-36 absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)]  rounded-full blur-[70px] right-[17%] top-[5%] hidden lg:block"></div>
+              <div className="w-36 h-36 absolute bg-gradient-to-bl from-lightSky to-lightGreen  rounded-full blur-[70px] right-[17%] top-[5%] hidden lg:block"></div>
               {/* Image */}
               <Image
                 width={602}

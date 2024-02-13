@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import CommonButtonLiner from "./common/button/CommonButtonLiner";
+import ButtonLiner from "./common/button/ButtonLiner";
 
 // KasinoNingh component for displaying reasons to choose us
 const KasinoNingh = () => {
@@ -8,7 +8,7 @@ const KasinoNingh = () => {
     <div
       // Setting the id for anchor linking
       id="Porqué"
-      className="bg-white md:bg-transparent bg-[url('/assets/images/background/slots.png')] bg-no-repeat bg-size-full my-20 py-16  md:my-0 md:py-32"
+      className="bg-white md:bg-transparent bg-kasinoNight bg-no-repeat bg-size-full my-20 py-16  md:my-0 md:py-32"
     >
       {/* Container for content */}
       <div
@@ -25,7 +25,7 @@ const KasinoNingh = () => {
           <div className="lg:w-6/12 md:w-7/12 sm:w-10/12 w-full lg:pe-5 lg:mt-0 mt-8">
             <div>
               {/* Title */}
-              <p className="font-Anton font-normal text-black xl:text-5xl text-3xl mb-4 leading-[97%]">
+              <p className="font-Anton font-normal text-darkBlack xl:text-5xl text-3xl mb-4 leading-[97%]">
                 Por qué elegirnos
                 {/* "Why choose us" */}
               </p>
@@ -40,7 +40,7 @@ const KasinoNingh = () => {
               </p>
               {/* Button for more information */}
               <div className="mt-6">
-                <CommonButtonLiner content="Aprende más" />
+                <ButtonLiner title="Aprende más" />
                 {/* "Learn more" button */}
               </div>
             </div>

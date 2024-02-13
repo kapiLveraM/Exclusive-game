@@ -1,19 +1,19 @@
 import React from "react";
-import CommonButtonLiner from "./common/button/CommonButtonLiner";
-import NavBar from "./common/navBarr/NavBar";
+import ButtonLiner from "./common/button/ButtonLiner";
+import NavBar from "./navBar/NavBar";
 
 const Hero = () => {
   return (
     <>
       {/* Hero section background */}
-      <div className="bg-[url('/assets/images/background/hero.png')] bg-no-repeat bg-cover">
+      <div className=" bg-hero bg-no-repeat bg-cover">
         {/* Navigation bar */}
         <NavBar />
         
         {/* Hero content */}
         <div className="min-h-[85vh] lg:min-h-screen flex items-center relative">
           {/* Overlay */}
-          <div className="absolute bg-black blur h-14 w-full bottom-[-20px]"></div>
+          <div className="absolute bg-darkBlack h-14 w-full bottom-[-20px]"></div>
           
           {/* Container */}
           <div className="container xl:max-w-[1140px] mx-auto px-3">
@@ -24,7 +24,7 @@ const Hero = () => {
                 data-aos="fade-up"
                 data-aos-delay="200"
                 data-aos-easing="linear"
-                data-aos-duration="1000"
+                data-aos-duration="800"
                 className="uppercase text-4xl sm:text-5xl md:text-xxl  sm:leading-[120%] text-white font-Anton max-w-lg mx-auto text-center"
               >
                 Exclusive Games. Pasión por ganar
@@ -35,7 +35,7 @@ const Hero = () => {
                 data-aos="fade-up"
                 data-aos-delay="600"
                 data-aos-easing="linear"
-                data-aos-duration="1000"
+                data-aos-duration="800"
                 className="text-center font-medium text-xs sm:text-sm font-Inter text-white max-w-[727px] mx-auto opacity-80 mt-4"
               >
                 En Exclusive Games somos un equipo apasionado de personas
@@ -49,10 +49,10 @@ const Hero = () => {
                 data-aos="fade-up"
                 data-aos-delay="800"
                 data-aos-easing="linear"
-                data-aos-duration="1000"
+                data-aos-duration="800"
                 className="mt-10"
               >
-                <CommonButtonLiner type="submit" content="Empezar" />
+                <ButtonLiner type="submit" title="Empezar" />
               </div>
             </div>
           </div>

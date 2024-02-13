@@ -1,17 +1,17 @@
 import Image from "next/image";
 import React from "react";
-import { SlotCardContent } from "./common/Helper";
-import CommonButtonLiner from "./common/button/CommonButtonLiner";
-import CommonCradContent from "./common/slotsCard/CommonCradContent";
+import { Slot } from "./common/Helper";
+import ButtonLiner from "./common/button/ButtonLiner";
+import Crads from "./common/allCards/Crads";
 
 // Define NuestrosAtributos component
 const NuestrosAtributos = () => {
   return (
-    <div className="bg-white md:bg-transparent bg-[url('/assets/images/background/slots.png')] bg-no-repeat bg-size-full my-20 py-16 md:my-0 md:py-32 relative z-30">
+    <div className="bg-white md:bg-transparent bg-luxury bg-no-repeat bg-size-full my-20 py-16 md:my-0 md:py-32 relative z-30">
       {/* Container */}
       <div className="container xl:max-w-[1140px] px-3 mx-auto md:pt-28 md:pb-36">
         {/* Title */}
-        <h2 className="font-Anton text-3xl md:text-5xl text-black text-center lg:mt-8">
+        <h2 className="font-Anton text-3xl md:text-5xl text-darkBlack text-center lg:mt-8">
           Nuestros Atributos de Marca
         </h2>
         {/* Attributes section */}
@@ -40,9 +40,9 @@ const NuestrosAtributos = () => {
               <h3
                 data-aos="fade-up"
                 data-aos-easing="linear"
-                data-aos-duration="1000"
+                data-aos-duration="800"
                 data-aos-delay="200"
-                className="font-Anton text-md text-black mt-4"
+                className="font-Anton text-md text-darkBlack mt-4"
               >
                 Inteligencia
               </h3>
@@ -50,9 +50,9 @@ const NuestrosAtributos = () => {
               <p
                 data-aos="fade-up"
                 data-aos-easing="linear"
-                data-aos-duration="1000"
+                data-aos-duration="800"
                 data-aos-delay="400"
-                className="font-medium text-xs sm:text-sm font-Inter text-black opacity-80 max-w-[263px]"
+                className="font-medium text-xs sm:text-sm font-Inter text-darkBlack opacity-80 max-w-[263px]"
               >
                 Comprendemos a la perfección los gustos de las personas y el
                 mundo del gaming.
@@ -82,9 +82,9 @@ const NuestrosAtributos = () => {
               <h3
                 data-aos="fade-up"
                 data-aos-easing="linear"
-                data-aos-duration="1000"
+                data-aos-duration="800"
                 data-aos-delay="200"
-                className="font-Anton text-md text-black mt-4"
+                className="font-Anton text-md text-darkBlack mt-4"
               >
                 Proactividad
               </h3>
@@ -92,9 +92,9 @@ const NuestrosAtributos = () => {
               <p
                 data-aos="fade-up"
                 data-aos-easing="linear"
-                data-aos-duration="1000"
+                data-aos-duration="800"
                 data-aos-delay="400"
-                className="font-medium text-xs sm:text-sm font-Inter text-black opacity-80 max-w-[235px]"
+                className="font-medium text-xs sm:text-sm font-Inter text-darkBlack opacity-80 max-w-[235px]"
               >
                 Somos creadores de cambios que exploran nuevas formas de
                 entretenimiento.
@@ -116,9 +116,9 @@ const NuestrosAtributos = () => {
               <h3
                 data-aos="fade-up"
                 data-aos-easing="linear"
-                data-aos-duration="1000"
+                data-aos-duration="800"
                 data-aos-delay="200"
-                className="font-Anton text-md text-black mt-4"
+                className="font-Anton text-md text-darkBlack mt-4"
               >
                 Innovación
               </h3>
@@ -126,9 +126,9 @@ const NuestrosAtributos = () => {
               <p
                 data-aos="fade-up"
                 data-aos-easing="linear"
-                data-aos-duration="1000"
+                data-aos-duration="800"
                 data-aos-delay="400"
-                className="font-medium text-xs sm:text-sm font-Inter text-black opacity-80 max-w-[245px]"
+                className="font-medium text-xs sm:text-sm font-Inter text-darkBlack opacity-80 max-w-[245px]"
               >
                 Pensamos fuera de la caja para estar siempre un paso adelante.
               </p>
@@ -138,11 +138,11 @@ const NuestrosAtributos = () => {
         {/* Slots section */}
         <div className="mt-16 md:mt-16 lg:mt-[150px]">
           {/* Title */}
-          <h2 className="font-Anton text-3xl md:text-5xl text-black text-center">
+          <h2 className="font-Anton text-3xl md:text-5xl text-darkBlack text-center">
             Slots
           </h2>
           {/* Description */}
-          <p className="text-center font-medium text-xs sm:text-sm font-Inter text-black max-w-[904px] mx-auto opacity-80 mt-4">
+          <p className="text-center font-medium text-xs sm:text-sm font-Inter text-darkBlack max-w-[904px] mx-auto opacity-80 mt-4">
             En Exclusive Games, ofrecemos una selección de más de 600 juegos de
             los principales desarrolladores, como Aristocrat, Amatic, EGT,
             Novomatic, IGT, Playtech, Igrosoft y Tom Horn. Nuestro equipo
@@ -153,26 +153,26 @@ const NuestrosAtributos = () => {
           {/* Slots cards */}
           <div data-aos="fade-up"
                 data-aos-easing="linear"
-                data-aos-duration="1000"
+                data-aos-duration="800"
                 data-aos-delay="400" className="flex flex-wrap justify-center mt-5 sm:mt-8 md:mt-14 pt-1">
-            {SlotCardContent.map((value, index) => (
+            {Slot.map((value, index) => (
               <div
                 key={index}
                 className="md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1 rounded-lg"
               >
-                <CommonCradContent image={value} buttonContent="Jugar" />
+                <Crads image={value} titleText="Jugar" />
               </div>
             ))}
           </div>
           {/* "Mostrar más" button */}
           <div
             data-aos-easing="linear"
-            data-aos-duration="1000"
+            data-aos-duration="800"
             data-aos="fade-up"
             data-aos-delay="100"
             className="flex justify-center mt-9"
           >
-            <CommonButtonLiner content="Mostrar más" />
+            <ButtonLiner title="Mostrar más" />
           </div>
         </div>
       </div>

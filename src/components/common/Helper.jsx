@@ -1,6 +1,6 @@
 import { FaceBook, GreenBulb, GreenValue, Instagram, LinkedIn, Mail, StartMan, Telephone } from "./icons/common";
 
-export const SlotCardContent = [
+export const Slot = [
   "/assets/images/slots/jetX.webp",
   "/assets/images/slots/joker.webp",
   "/assets/images/slots/slots.webp",
@@ -9,7 +9,7 @@ export const SlotCardContent = [
   "/assets/images/slots/casino.webp",
 ];
 // jackpot services
-export const JackpotServicesContent = [
+export const JackpotServices = [
   "Tecnología HTML5",
   "Versión PC y móvil",
   "Control de RTP (controlás qué porcentaje pagar)",
@@ -18,99 +18,99 @@ export const JackpotServicesContent = [
 ];
 
 // Juegos content
-export const JuegosContent = [
+export const Juegos = [
   "/assets/images/Juegos/blackJack.webp",
   "/assets/images/Juegos/europeanRoulette.webp",
   "/assets/images/Juegos/liveBetting.webp",
 ];
 // EllosEligieron
-export const EllosEligieronContent = [
+export const EllosEligieron = [
   "/assets/images/EllosEligieron/giros.webp",
   "/assets/images/EllosEligieron/europeanRoulette.webp",
   "/assets/images/EllosEligieron/liveBetting.webp",
 ];
 
 // mas card data
-export const masCards = [
+export const MasCards = [
   {
     icon: <GreenBulb />,
-    tittle: "200",
-    content: "Páginas creadas",
+    title: "200",
+    description: "Páginas creadas",
   },
   {
     icon: <StartMan />,
-    tittle: "98%",
-    content: "Clientes Satisfechas",
+    title: "98%",
+    description: "Clientes Satisfechas",
   },
   {
     icon: <GreenValue />,
-    tittle: "200",
-    content: "Divisas Disponibles",
+    title: "200",
+    description: "Divisas Disponibles",
   },
 ];
 
 // accordian data
-export const accordianContent = [
+export const Accordian = [
   {
-    tittle:
+    title:
       " ¿Cuáles son las ventajas de elegir Juegos Exclusivos para mis plataformas de juegos?",
-    content:
+    description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
-    tittle: "¿Cómo garantizan la seguridad de las operaciones en sus juegos?",
-    content:
+    title: "¿Cómo garantizan la seguridad de las operaciones en sus juegos?",
+    description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
-    tittle:
+    title:
       "¿Cuáles son las opciones de juego disponibles en las versiones Silver, Luxury y Platinum?",
-    content:
+    description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
-    tittle: "¿Cuánto tiempo lleva crear una plataforma con Juegos Exclusivos?",
-    content:
+    title: "¿Cuánto tiempo lleva crear una plataforma con Juegos Exclusivos?",
+    description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
-    tittle: "¿Qué métodos de pago aceptan?",
-    content:
+    title: "¿Qué métodos de pago aceptan?",
+    description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
-    tittle: "¿Puedo probar sus juegos antes de comprometerme?",
-    content:
+    title: "¿Puedo probar sus juegos antes de comprometerme?",
+    description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
 ];
 
 
 // footer icon
-export const footerContents = [
+export const FooterLinks = [
   {
-    tittle: "Menú principal",
+    title: "Menú principal",
     link: [
-      {  content: "Hogar", path: "#Hogar" },
-      { content: "Misión", path: "#Misión" },
-      { content: "Tragamonedas", path: "#Tragamonedas" },
-      { content: "Por qué elegirnos", path: "#Porqué" },
-      { content: "Ofertas", path: "#Ofertas" },
+      {  links: "Hogar", path: "#Hogar" },
+      { links: "Misión", path: "#Misión" },
+      { links: "Tragamonedas", path: "#Tragamonedas" },
+      { links: "Por qué elegirnos", path: "#Porqué" },
+      { links: "Ofertas", path: "#Ofertas" },
     ],
   },
   {
-    tittle: "Atención al cliente",
+    title: "Atención al cliente",
     link: [
-      { content: "¿Necesitas ayuda?", path: "/" },
-      { content: "política de privacidad", path: "/" },
-      { content: "Términos de servicios", path: "/" },
+      { links: "¿Necesitas ayuda?", path: "/" },
+      { links: "política de privacidad", path: "/" },
+      { links: "Términos de servicios", path: "/" },
     ],
   },
   {
-    tittle: "Ponerse en contacto",
+    title: "Ponerse en contacto",
     link: [
-      { content: "juegosexclusivos@gmail.com", path: "mail:juegosexclusivos@gmail.com",  icon: <Mail /> },
-    { content: "(101)342-7873", path: "tel:(101)342-7873", icon: <Telephone /> },
+      { links: "juegosexclusivos@gmail.com", path: "mail:juegosexclusivos@gmail.com",  icon: <Mail /> },
+    { links: "(101)342-7873", path: "tel:(101)342-7873", icon: <Telephone /> },
     ],
   },
 ];

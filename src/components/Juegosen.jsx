@@ -1,9 +1,9 @@
 import React from "react";
-import { JuegosContent } from "./common/Helper";
-import CommonCradContent from "./common/slotsCard/CommonCradContent";
+import { Juegos } from "./common/Helper";
+import Crads from "./common/allCards/Crads";
 
 // Juegos component for displaying live games
-const Juegos = () => {
+const Juegosen = () => {
   return (
     <div className="container max-w-[1140px] mx-auto px-3">
       {/* Title for live games section */}
@@ -14,19 +14,19 @@ const Juegos = () => {
 
       {/* Grid for displaying live games */}
       <div className="flex flex-wrap justify-center">
-        {JuegosContent.map((value, index) => {
+        {Juegos.map((value, index) => {
           return (
             <div
               // AOS animation settings
               data-aos="fade-up"
               data-aos-delay="200"
               data-aos-easing="linear"
-              data-aos-duration="1000"
+              data-aos-duration="800"
               key={index}
               className="md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1 border-none"
             >
               {/* CommonCardContent component to display game */}
-              <CommonCradContent image={value} buttonContent="Reproducir ahora" />
+              <Crads image={value} titleText="Reproducir ahora" />
               {/* "Play now" button */}
             </div>
           );
@@ -36,4 +36,4 @@ const Juegos = () => {
   );
 };
 
-export default Juegos;
+export default Juegosen;

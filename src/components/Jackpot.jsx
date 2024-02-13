@@ -1,17 +1,17 @@
 import Image from "next/image";
 import React from "react";
-import { JackpotServicesContent } from "./common/Helper";
+import { JackpotServices } from "./common/Helper";
 import { GreenArrowJackpot } from "./common/icons/common";
 import Lanza from "./Lanza";
-import Juegos from "./Juegos";
+import Juegosen from "./Juegosen";
 
 // Define Jackpot component
 const Jackpot = () => {
   return (
-    <div id="Tragamonedas" className="bg-[url('/assets/images/background/jackportBg.png')] bg-no-repeat bg-[100%_100%] md:mb-24 relative">
+    <div id="Tragamonedas" className=" bg-jackpot bg-no-repeat bg-[100%_100%] md:mb-24 relative">
       {/* Gradient background circles */}
-      <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] left-[-20px] top-[-25%] hidden lg:block"></div>
-      <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] right-[-20%] bottom-0"></div>
+      <div className="w-[484px] h-[484px] absolute bg-gradient-to-bl from-lightSky to-lightGreen opacity-50 rounded-full blur-[200px] left-[-20px] top-[-25%] hidden lg:block"></div>
+      <div className="w-[484px] h-[484px] absolute bg-gradient-to-bl from-lightSky to-lightGreen opacity-50 rounded-full blur-[200px] right-[-20%] bottom-0"></div>
       {/* Container */}
       <div className="container max-w-[1140px] mx-auto px-3 xl:pb-[150px] pb-20 relative z-40 lg:mt-24">
         {/* Content */}
@@ -22,7 +22,7 @@ const Jackpot = () => {
               data-aos="fade-right"
               data-aos-delay="100"
               data-aos-easing="linear"
-              data-aos-duration="1000"
+              data-aos-duration="800"
               loading="lazy"
               src="/assets/images/jackpot/jackpot.webp"
               width={558}
@@ -33,7 +33,7 @@ const Jackpot = () => {
           </div>
           {/* Text content */}
           <div className="lg:w-6/12 md:w-7/12 sm:w-10/12 w-full lg:ps-5 lg:mt-0 mt-8">
-            <div data-aos="fade-left" data-aos-delay="100" data-aos-easing="linear" data-aos-duration="1000">
+            <div data-aos="fade-left" data-aos-delay="100" data-aos-easing="linear" data-aos-duration="800">
               <p className="font-Anton font-normal text-white xl:text-[47px] text-3xl mb-4 leading-[97%]">
                 Potenciando sus elecciones
               </p>
@@ -42,12 +42,12 @@ const Jackpot = () => {
               </p>
               {/* Services */}
               <div className="flex flex-col gap-3 mb-6">
-                {JackpotServicesContent.map((content, index) => {
+                {JackpotServices.map((title, index) => {
                   return (
                     <div className="flex items-center" key={index}>
                       <GreenArrowJackpot />
                       <p className="ms-2 font-Inter font-medium md:text-sm text-xs text-white opacity-70 max-w-[415px]">
-                        {content}
+                        {title}
                       </p>
                     </div>
                   );
@@ -62,7 +62,7 @@ const Jackpot = () => {
       </div>
       {/* Additional components */}
       <Lanza />
-      <Juegos />
+      <Juegosen />
     </div>
   );
 };

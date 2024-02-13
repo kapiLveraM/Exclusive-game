@@ -8,8 +8,8 @@ const NuestraMision = () => {
   return (
     <div id="Misión" className="sm:pt-20 sm:pb-24 relative">
       {/* Gradient overlays */}
-      <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] left-[-20px] top-16"></div>
-      <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] right-[-22%] bottom-[-38%] hidden lg:block"></div>
+      <div className="w-[484px] h-[484px] absolute bg-gradient-to-bl from-lightSky to-lightGreen opacity-50 rounded-full blur-[200px] left-[-20px] top-16"></div>
+      <div className="w-[484px] h-[484px] absolute bg-gradient-to-bl from-lightSky to-lightGreen opacity-50 rounded-full blur-[200px] right-[-22%] bottom-[-38%] hidden lg:block"></div>
       
       {/* Container */}
       <div className="container xl:max-w-[1140px] mx-auto px-3">
@@ -22,7 +22,7 @@ const NuestraMision = () => {
               data-aos="zoom-in"
               data-aos-delay="200"
               data-aos-easing="linear"
-              data-aos-duration="1000"
+              data-aos-duration="800"
               loading="lazy"
               height={538}
               width={536}
@@ -34,7 +34,7 @@ const NuestraMision = () => {
             <div
               data-aos="fade-right"
               data-aos-easing="linear"
-              data-aos-duration="1000"
+              data-aos-duration="800"
               className="mt-7 md:mt-[60px]"
             >
               <h2 className="font-Anton text-3xl md:text-5xl text-white">
@@ -60,12 +60,12 @@ const NuestraMision = () => {
           </div>
           
           {/* Decorative circle */}
-          <div className="top-[45%] left-[35%] w-[234px] h-[234px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[90px] z-[-1]"></div>
+          <div className="top-[45%] left-[35%] w-[234px] h-[234px] absolute bg-gradient-to-bl from-lightSky to-lightGreen opacity-50 rounded-full blur-[90px] z-[-1]"></div>
 
           {/* Right section */}
           <div className="w-full sm:w-10/12 md:w-6/12 mt-9 md:mt-0 sm:px-3 lg:ps-8 lg:pr-3 flex flex-col-reverse md:block">
             {/* Text */}
-            <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000" className="mt-7 md:mt-0">
+            <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="800" className="mt-7 md:mt-0">
               <h2 className="font-Anton text-white text-3xl md:text-5xl">
                 Nuestra Misión
               </h2>
@@ -90,7 +90,7 @@ const NuestraMision = () => {
               data-aos="zoom-in"
               data-aos-delay="200"
               data-aos-easing="linear"
-              data-aos-duration="1000"
+              data-aos-duration="800"
               className="mt-7 md:mt-[60px]"
             >
               <Image

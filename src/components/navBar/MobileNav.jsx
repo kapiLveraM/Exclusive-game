@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import CommonButton from "../button/CommonButton";
+import ButtonWhite from "../common/button/ButtonWhite";
 
 // Define MobileNav component
 const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
@@ -93,17 +93,17 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
           {/* Other navigation links */}
           {/* ... */}
           {/* Common button */}
-          <CommonButton
+          <ButtonWhite
             onClick={() => setActiveNavOverlay(false)}
             type="submit"
-            content="Acceso"
+            title="Acceso"
           />
         </div>
       </div>
 
       {/* Background overlay */}
       <div
-        className={`absolute lg:hidden top-0 left-0 w-full h-full bg-[#000000a6] lg:bg-transparent backdrop-sepia-[12px z-50 ${
+        className={`absolute lg:hidden top-0 left-0 w-full h-full bg-darkBlack lg:bg-transparent backdrop-sepia-[12px z-50 ${
           activeNavOverlay
             ? "pointer-events-auto opacity-1"
             : "pointer-events-none opacity-0"

@@ -2,9 +2,9 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { HeaderCrossIcons, ToggleIcon } from "../icons/common";
+import ButtonWhite from "../common/button/ButtonWhite";
 import MobileNav from "./MobileNav";
-import CommonButton from "../button/CommonButton";
+import { HeaderCross, OpenNav } from "../common/icons/common";
 
 // Define NavBar component
 const NavBar = () => {
@@ -33,7 +33,7 @@ const NavBar = () => {
             />
             
             {/* Navigation bar */}
-            <nav className="!bg-[#FFFFFF1A] py-5 ">
+            <nav className="bg-MauveSeductress py-5 ">
                 <div className=" container xl:max-w-[1140px] mx-auto px-3">
                     <div className=" flex justify-between items-center">
                         {/* Logo */}
@@ -71,7 +71,7 @@ const NavBar = () => {
                         </div>
                         {/* Button */}
                         <div className="hidden lg:block">
-                            <CommonButton type="submit" content="Acceso" />
+                            <ButtonWhite type="submit" title="Acceso" />
                         </div>
                         {/* Toggle button for mobile */}
                         <div className="flex items-center lg:hidden relative z-[200] sm:me-0 ">
@@ -82,7 +82,7 @@ const NavBar = () => {
                                 className="inline-flex items-center justify-center rounded-md w-[33px]"
                                 aria-label="toggle-button"
                             >
-                                {isToggleIconVisible ? <HeaderCrossIcons /> : <ToggleIcon />}
+                                {isToggleIconVisible ? <HeaderCross /> : <OpenNav/>}
                             </button>
                         </div>
                     </div>

@@ -1,4 +1,4 @@
-export const ToggleIcon = () => {
+export const OpenNav = () => {
   return (
     <svg
       width="33"
@@ -15,7 +15,7 @@ export const ToggleIcon = () => {
     </svg>
   );
 };
-export const HeaderCrossIcons = () => {
+export const HeaderCross = () => {
   return (
     <svg
       width="33"
@@ -700,7 +700,7 @@ export const Telephone = () => {
     </svg>
   );
 };
-export const BackToTop = () => {
+export const BackTop = () => {
   return (
    <svg width="20" height="20" viewBox="0 0 21 33" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M8.66426 12.5823V12.0823H8.16426H1.17359L10.0606 1.28831L19.1635 12.0823H12.1893H11.6893V12.5823L11.6893 32.2073H8.66426L8.66426 12.5823Z" fill="white" stroke="white"/>

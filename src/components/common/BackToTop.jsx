@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
-import { BackToTop } from "./icons/common";
+import { BackTop } from "./icons/common";
 
-const BackToTopButton = () => {
+const BackToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const handleScroll = () => {
@@ -29,14 +29,14 @@ const BackToTopButton = () => {
 
   return (
     <button
-      className={` back_to_top fixed right-6 flex items-center justify-center bottom-6 p-3 bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)]  text-white rounded-full !z-50 ${
+      className={` back_to_top fixed right-6 flex items-center justify-center bottom-6 p-3 bg-gradient-to-bl from-lightSky to-lightGreen  text-white rounded-full !z-50 ${
         isVisible ? "block" : "hidden"
       }`}
       onClick={scrollToTop}
     >
-   <BackToTop/>
+   <BackTop/>
     </button>
   );
 };
 
-export default BackToTopButton;
+export default BackToTop;

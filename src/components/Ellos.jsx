@@ -1,6 +1,6 @@
 import React from "react";
-import { EllosEligieronContent } from "./common/Helper";
-import CommonCradContent from "./common/slotsCard/CommonCradContent";
+import { EllosEligieron } from "./common/Helper";
+import Crads from "./common/allCards/Crads";
 
 // Component definition
 const Ellos = () => {
@@ -12,7 +12,7 @@ const Ellos = () => {
         <h2
           data-aos="fade-up"
           data-aos-easing="linear"
-          data-aos-duration="1000"
+          data-aos-duration="800"
           data-aos-delay="300"
           className="font-Anton text-3xl md:text-5xl text-white text-center"
         >
@@ -22,19 +22,19 @@ const Ellos = () => {
         <div
           data-aos="fade-up"
           data-aos-easing="linear"
-          data-aos-duration="1000"
+          data-aos-duration="800"
           data-aos-delay="400"
           className="flex flex-wrap justify-center mt-7 md:mt-14"
         >
           {/* Mapping through the EllosEligieronContent array */}
-          {EllosEligieronContent.map((value, index) => {
+          {EllosEligieron.map((value, index) => {
             return (
               <div
                 key={index}
                 className="md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1 border-none"
               >
-                {/* Rendering CommonCradContent component */}
-                <CommonCradContent image={value} buttonContent="Rcasinovip" />
+                {/* Rendering Crads component */}
+                <Crads image={value} titleText="Rcasinovip" />
               </div>
             );
           })}
@@ -42,7 +42,7 @@ const Ellos = () => {
         {/* Description */}
         <p
           data-aos="fade-up"
-          data-aos-duration="1000"
+          data-aos-duration="800"
           data-aos-delay="500"
           className="font-Inter font-semibold text-xs sm:text-sm text-white ma-w-[ 883px] mx-auto text-center mt-6 md:mt-[38px]"
         >

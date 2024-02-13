@@ -1,14 +1,14 @@
 import Image from "next/image";
 import React from "react";
-import { masCards } from "./common/Helper";
+import { MasCards } from "./common/Helper";
 
 // Component definition
 const Mas = () => {
   return (
     <div className="relative">
       {/* Background circles */}
-      <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] left-[-20px] top-[-50%] hidden xl:blocks"></div>
-      <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] right-[-20%] bottom-[-40%] hidden xl:block"></div>
+      <div className="w-[484px] h-[484px] absolute bg-gradient-to-bl from-lightSky to-lightGreen opacity-50 rounded-full blur-[200px] left-[-20px] top-[-50%] hidden xl:blocks"></div>
+      <div className="w-[484px] h-[484px] absolute bg-gradient-to-bl from-lightSky to-lightGreen opacity-50 rounded-full blur-[200px] right-[-20%] bottom-[-40%] hidden xl:block"></div>
       {/* Content container */}
       <div className="container max-w-[1140px] mx-auto px-3 mt-36 lg:pb-0 relative z-20">
         <div className="flex flex-wrap items-center justify-center">
@@ -16,7 +16,7 @@ const Mas = () => {
           <div
             data-aos="fade-right"
             data-aos-easing="linear"
-            data-aos-duration="1000"
+            data-aos-duration="800"
             className="xl:w-6/12 lg:w-7/12 sm:w-8/12 w-full lg:pe-5"
           >
             <Image
@@ -30,7 +30,7 @@ const Mas = () => {
           {/* Right side with cards */}
           <div
             data-aos="fade-left"
-            data-aos-duration="1000"
+            data-aos-duration="800"
             data-aos-easing="linear"
             className="xl:w-6/12 lg:w-5/12 sm:w-10/12 w-full lg:ps-5 lg:mt-0 mt-8 flex flex-col lg:items-start items-center"
           >
@@ -40,10 +40,10 @@ const Mas = () => {
             </p>
             {/* Cards */}
             <div className="flex flex-col gap-6">
-              {masCards.map((value, index) => {
+              {MasCards.map((value, index) => {
                 return (
                   <div
-                    className="bg-[#041C23] max-w-[374px] flex items-center md:ps-14 ps-3 pe-3 transition-all ease-in-out duration-300 hover:shadow-white shadow py-6 gap-[37px] rounded-2xl w-full border-[0.5px] border-[#367E6D]"
+                    className=" bg-darkBlack max-w-[374px] flex items-center md:ps-14 ps-3 pe-3 transition-all ease-in-out duration-300 hover:shadow-white shadow py-6 gap-[37px] rounded-2xl w-full border-[0.5px] border-Himalaya "
                     key={index}
                   >
                     {/* Icon */}
@@ -51,10 +51,10 @@ const Mas = () => {
                     {/* Content */}
                     <div className="flex flex-col">
                       <p className="text-white font-normal text-3xl font-Anton">
-                        {value.tittle}
+                        {value.title}
                       </p>
                       <p className="font-medium text-xs sm:text-sm text-white">
-                        {value.content}
+                        {value.description}
                       </p>
                     </div>
                   </div>
