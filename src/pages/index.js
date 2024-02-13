@@ -19,14 +19,26 @@ import 'aos/dist/aos.css';
 import { useEffect } from "react";
 
 export default function Home() {
+  // Initialize AOS once when component mounts
   useEffect(() => {
-        AOS.init();
-      }, [])
+    AOS.init({
+      once: true, // Set once to true to trigger animation only once
+      // Other options...
+    });
+  }, []);
+
   return (
-    <div className=" overflow-x-hidden">
+    <div className="overflow-x-hidden">
+      {/* Meta tags for the page */}
       <PageMataTag/>
+
+      {/* Button to scroll back to the top of the page */}
       <BackToTopButton />
-    <Hero/>
+
+      {/* Hero section */}
+      <Hero/>
+
+      {/* Components for various sections of the page */}
       <NuestraMision />
       <NuestrosAtributos />
       <Jackpot />
@@ -38,7 +50,9 @@ export default function Home() {
       <Ellos />
       <Faqs/>
       <PropiaLanza />
+
+      {/* Footer of the page */}
       <Footer/>
-      </div>
+    </div>
   );
 }

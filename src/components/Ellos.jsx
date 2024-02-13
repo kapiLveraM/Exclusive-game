@@ -2,10 +2,13 @@ import React from "react";
 import { EllosEligieronContent } from "./common/Helper";
 import CommonCradContent from "./common/slotsCard/CommonCradContent";
 
+// Component definition
 const Ellos = () => {
   return (
-    <div className=" mt-20 xl:mt-36 pt-2">
-      <div className=" container xl:max-w-[1140px] px-3 mx-auto">
+    <div className="mt-20 xl:mt-36 pt-2">
+      {/* Container */}
+      <div className="container xl:max-w-[1140px] px-3 mx-auto">
+        {/* Title */}
         <h2
           data-aos="fade-up"
           data-aos-easing="linear"
@@ -15,6 +18,7 @@ const Ellos = () => {
         >
           Ellos eligieron apostar con nosotros{" "}
         </h2>
+        {/* Card section */}
         <div
           data-aos="fade-up"
           data-aos-easing="linear"
@@ -22,22 +26,25 @@ const Ellos = () => {
           data-aos-delay="400"
           className="flex flex-wrap justify-center mt-7 md:mt-14"
         >
+          {/* Mapping through the EllosEligieronContent array */}
           {EllosEligieronContent.map((value, index) => {
             return (
               <div
                 key={index}
-                className=" md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1 border-none"
+                className="md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1 border-none"
               >
+                {/* Rendering CommonCradContent component */}
                 <CommonCradContent image={value} buttonContent="Rcasinovip" />
               </div>
             );
           })}
         </div>
+        {/* Description */}
         <p
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="500"
-          className=" font-Inter font-semibold text-xs sm:text-sm text-white ma-w-[ 883px] mx-auto text-center mt-6 md:mt-[38px]"
+          className="font-Inter font-semibold text-xs sm:text-sm text-white ma-w-[ 883px] mx-auto text-center mt-6 md:mt-[38px]"
         >
           Clientes satisfechos que confiaron en Exclusive Games y han disfrutado
           de emocionantes experiencias de juego.
