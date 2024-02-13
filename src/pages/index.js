@@ -14,9 +14,14 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import BackToTopButton from "@/components/common/BackToTopButton ";
 import PageMataTag from "@/components/PageMataTag";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+        AOS.init();
+      }, [])
   return (
     <div className=" overflow-x-hidden">
       <PageMataTag/>

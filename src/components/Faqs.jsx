@@ -58,13 +58,15 @@ const Faqs = () => {
         <h2 className="uppercase font-Anton md:text-5xl text-3xl text-center font-normal text-white leading-[112%]">
           Preguntas más frecuentes
         </h2>
-        <div className="max-w-[970px] mx-auto  xl:pt-7">
+        <div data-aos="fade-up"   data-aos-easing="linear"
+     data-aos-duration="1000" className="max-w-[970px] mx-auto  xl:pt-7">
           {accordianContent.map((value, index) => (
             <Accordion
               key={index}
-              className="flex flex-col justify-between border-[0.5px] border-[#80898D] rounded-md px-5 py-4 bg-darkBlue overflow-hidden ease-out transition-all duration-300 mt-8 relative"
+              className="flex flex-col justify-between border-[0.5px] border-[#80898D] rounded-md px-4 sm:px-5 py-4 bg-darkBlue overflow-hidden ease-out transition-all duration-300 mt-8 relative"
               open={isAccordionOpen === index}
               icon={<Icon id={index} open={isAccordionOpen} />}
+              
             >
               <AccordionHeader
                 onClick={() => toggleAccordion(index)}

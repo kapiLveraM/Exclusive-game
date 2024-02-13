@@ -40,7 +40,7 @@ const Footer = () => {
             {footerContents.map((value, i) => {
               return (
                 <ul
-                  className="md:w-4/12 w-6/12 flex flex-col w-full items-start gap-2 xl:ps-10 md:mb-0 mb-5"
+                  className="md:w-4/12 w-6/12 flex flex-col  items-start gap-2 xl:ps-10 md:mb-0 mb-5"
                   key={i}
                 >
                   <li className=" font-Inter font-bold text-xs sm:text-sm text-white mb-2">

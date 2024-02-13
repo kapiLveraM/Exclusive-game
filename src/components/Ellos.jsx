@@ -6,10 +6,22 @@ const Ellos = () => {
   return (
     <div className=" mt-20 xl:mt-36 pt-2">
       <div className=" container xl:max-w-[1140px] px-3 mx-auto">
-        <h2 className="font-Anton text-3xl md:text-5xl text-white text-center">
+        <h2
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+          className="font-Anton text-3xl md:text-5xl text-white text-center"
+        >
           Ellos eligieron apostar con nosotros{" "}
         </h2>
-        <div className="flex flex-wrap justify-center mt-7 md:mt-14">
+        <div
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+          className="flex flex-wrap justify-center mt-7 md:mt-14"
+        >
           {EllosEligieronContent.map((value, index) => {
             return (
               <div
@@ -20,12 +32,20 @@ const Ellos = () => {
               </div>
             );
           })}
-              </div>
-              <p className=" font-Inter font-semibold text-xs sm:text-sm text-white ma-w-[ 883px] mx-auto text-center mt-6 md:mt-[38px]">
-                  Clientes satisfechos que confiaron en Exclusive Games y han disfrutado de emocionantes experiencias de juego.<br/>
-Ahora, la próxima apuesta está en tus manos.<br/>
-Elige ganar. Elige exclusive game.
-              </p>
+        </div>
+        <p
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+          className=" font-Inter font-semibold text-xs sm:text-sm text-white ma-w-[ 883px] mx-auto text-center mt-6 md:mt-[38px]"
+        >
+          Clientes satisfechos que confiaron en Exclusive Games y han disfrutado
+          de emocionantes experiencias de juego.
+          <br />
+          Ahora, la próxima apuesta está en tus manos.
+          <br />
+          Elige ganar. Elige exclusive game.
+        </p>
       </div>
     </div>
   );

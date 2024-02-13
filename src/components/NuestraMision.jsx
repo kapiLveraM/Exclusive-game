@@ -12,6 +12,10 @@ const NuestraMision = () => {
         <div className=" flex justify-center flex-wrap relative z-10">
           <div className=" w-full sm:w-10/12 md:w-6/12 sm:px-3 lg:ps-3 lg:pr-8">
             <Image
+              data-aos="zoom-in"
+              data-aos-delay="200"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
               loading="lazy"
               height={538}
               width={536}
@@ -19,7 +23,12 @@ const NuestraMision = () => {
               alt="poker"
               className=" w-full sm:max-w-[500px] md:w-full"
             />
-            <div className=" mt-7 md:mt-[60px]">
+            <div
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+              className=" mt-7 md:mt-[60px]"
+            >
               <h2 className=" font-Anton text-3xl md:text-5xl text-white">
                 Nuestra Visión
               </h2>
@@ -44,7 +53,8 @@ const NuestraMision = () => {
           <div className=" top-[45%] left-[35%] w-[234px] h-[234px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[90px] z-[-1]"></div>
 
           <div className=" w-full sm:w-10/12 md:w-6/12 mt-9 md:mt-0 sm:px-3 lg:ps-8 lg:pr-3 flex flex-col-reverse md:block">
-            <div className="mt-7 md:mt-0">
+            <div data-aos="fade-left"   data-aos-easing="linear"
+     data-aos-duration="1000" className="mt-7 md:mt-0">
               <h2 className=" font-Anton  text-white text-3xl md:text-5xl">
                 Nuestra Misión
               </h2>
@@ -64,7 +74,13 @@ const NuestraMision = () => {
                 </span>{" "}
               </Link>
             </div>
-            <div className="mt-7 md:mt-[60px]">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="200"
+                data-aos-easing="linear"
+     data-aos-duration="1000"
+              className="mt-7 md:mt-[60px]"
+            >
               <Image
                 sizes="100vw"
                 loading="lazy"

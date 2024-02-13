@@ -53,33 +53,33 @@ export const masCards = [
 export const accordianContent = [
   {
     tittle:
-      "Cuáles son las ventajas de elegir Juegos Exclusivos para mis plataformas de juegos?",
+      " ¿Cuáles son las ventajas de elegir Juegos Exclusivos para mis plataformas de juegos?",
     content:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
-    tittle: "Cómo garantizan la seguridad de las operaciones en sus juegos?",
+    tittle: "¿Cómo garantizan la seguridad de las operaciones en sus juegos?",
     content:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
     tittle:
-      " Cuáles son las opciones de juego disponibles en las versiones Silver, Luxury y Platinum?",
+      "¿Cuáles son las opciones de juego disponibles en las versiones Silver, Luxury y Platinum?",
     content:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
-    tittle: "Cuánto tiempo lleva crear una plataforma con Juegos Exclusivos?",
+    tittle: "¿Cuánto tiempo lleva crear una plataforma con Juegos Exclusivos?",
     content:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
-    tittle: "Qué métodos de pago aceptan?",
+    tittle: "¿Qué métodos de pago aceptan?",
     content:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
-    tittle: "Puedo probar sus juegos antes de comprometerme?",
+    tittle: "¿Puedo probar sus juegos antes de comprometerme?",
     content:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
@@ -101,7 +101,7 @@ export const footerContents = [
   {
     tittle: "Atención al cliente",
     link: [
-      { content: "Necesitas ayuda?", path: "/" },
+      { content: "¿Necesitas ayuda?", path: "/" },
       { content: "política de privacidad", path: "/" },
       { content: "Términos de servicios", path: "/" },
     ],

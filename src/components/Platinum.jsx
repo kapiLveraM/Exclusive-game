@@ -5,17 +5,18 @@ import Image from "next/image";
 const Platinum = () => {
   return (
     
-    <div className=" container xl:max-w-[1140px] px-3 mx-auto mt-20 relative">
+    <div  data-aos="fade-up"   data-aos-easing="linear"
+     data-aos-duration="1000" className=" container xl:max-w-[1140px] px-3 mx-auto mt-20 relative">
             <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] left-[-20%] top-[-30%] z-0 hidden lg:block"></div>
             <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] right-[-55%] top-[70%] z-0 hidden lg:block"></div>
 
-        <div className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box rounded-2xl p-5 lg:py-[79px] lg:px-12 relative z-40">
+        <div className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box rounded-2xl px-5 py-11 lg:py-[79px] lg:px-12 relative z-40">
           <div className="flex flex-wrap flex-col-reverse lg:flex-row lg:items-center justify-between ">
             <div className="lg:w-6/12 xl:w-5/12 ">
               <h3 className="font-Anton text-lg text-white">Platinum</h3>
 
 
-              <p className=" mt-4 font-medium text-sm font-Inter opacity-80 text-white max-w-[364px]">
+              <p className=" mt-4 font-medium sm:text-xs text-sm font-Inter opacity-80 text-white max-w-[364px]">
                 Diseño totalmente personalizado. Contáctanos para un presupuesto.
               </p>
               <h2 className="font-Anton text-3xl md:text-5xl text-white mt-8">

@@ -15,6 +15,9 @@ const Jackpot = () => {
         <div className="flex flex-wrap items-center justify-center">
           <div className="lg:w-6/12 md:w-7/12 sm:w-10/12 w-full lg:pe-5">
             <Image
+              data-aos="fade-right" data-aos-delay="100"
+                data-aos-easing="linear"
+     data-aos-duration="1000"
               loading="lazy"
               src="/assets/images/jackpot/jackpot.webp"
               width={558}
@@ -24,7 +27,8 @@ const Jackpot = () => {
             />
           </div>
           <div className="lg:w-6/12 md:w-7/12 sm:w-10/12 w-full lg:ps-5 lg:mt-0 mt-8">
-            <div>
+            <div data-aos="fade-left" data-aos-delay="100"   data-aos-easing="linear"
+     data-aos-duration="1000">
               <p className=" font-Anton font-normal text-white xl:text-[47px] text-3xl mb-4 leading-[97%]">
                 Potenciando sus elecciones
               </p>

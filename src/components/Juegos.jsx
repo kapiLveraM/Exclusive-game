@@ -14,6 +14,8 @@ const Juegos = () => {
         {JuegosContent.map((value, index) => {
           return (
             <div
+              data-aos="fade-up" data-aos-delay="200"   data-aos-easing="linear"
+     data-aos-duration="1000"
               key={index}
               className=" md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1 border-none"
             >

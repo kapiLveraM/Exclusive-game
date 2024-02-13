@@ -12,7 +12,8 @@ const NuestrasOfertas = () => {
         <p className="mt-3 sm:mt-4 text-center font-medium text-xs sm:text-sm font-Inter text-white max-w-[904px] mx-auto">
           Te ofrecemos las mejores experiencias de juegos para tus clientes.
         </p>
-        <div className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box mt-7 xl:mt-[60px] rounded-2xl p-5 lg:p-[57px_15px_30px_40px]">
+        <div   data-aos-easing="linear"
+     data-aos-duration="1000"  data-aos="fade-up"  className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box mt-7 xl:mt-[60px] rounded-2xl px-5 py-11 lg:p-[57px_15px_30px_40px]">
           <div className="flex flex-wrap justify-between items-center">
             <div className="lg:w-6/12 sm:px-3">
               <div className="Nuestras-ofertas-img relative ">

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import CommonButton from "../button/CommonButton";
 
 const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
   useEffect(() => {
@@ -64,7 +65,7 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
             onClick={() => setActiveNavOverlay(false)}
             className="mobile-nav-li"
           >
-           Por qué elegirnos
+            Por qué elegirnos
           </Link>
           <Link
             aria-label="dashboard"
@@ -72,9 +73,14 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
             onClick={() => setActiveNavOverlay(false)}
             className="mobile-nav-li"
           >
-           Ofertas
+            Ofertas
           </Link>
-          
+
+          <CommonButton
+            onClick={() => setActiveNavOverlay(false)}
+            type="submit"
+            content="Acceso"
+          />
         </div>
       </div>
       <div
