@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import { Slot } from "./common/Helper";
-import ButtonLiner from "./common/button/ButtonLiner";
-import Cards from "./common/allCards/Cards";
+import GreenButton from "./common/button/GreenButton";
+import Cards from "./common/Cards";
 
 // Define NuestrosAtributos component
 const NuestrosAtributos = () => {
@@ -25,7 +25,7 @@ const NuestrosAtributos = () => {
                 height={273}
                 width={42}
                 className="absolute w-72 left-[80%] top-0 hidden lg:block"
-                src="/assets/icons/nuestrosAtributos/NuestrosArrow.svg"
+                src="/assets/images/nuestrosAtributos/NuestrosArrow.svg"
                 alt="poker"
               />
               <Image
@@ -33,7 +33,7 @@ const NuestrosAtributos = () => {
                 height={100}
                 width={100}
                 className="w-auto h-auto"
-                src="/assets/icons/nuestrosAtributos/Inteligencia.svg"
+                src="/assets/images/nuestrosAtributos/Inteligencia.svg"
                 alt="poker"
               />
               {/* Title */}
@@ -68,14 +68,14 @@ const NuestrosAtributos = () => {
                 height={273}
                 width={42}
                 className="absolute w-72 left-[80%] bottom-[120px] hidden lg:block"
-                src="/assets/icons/nuestrosAtributos/NuestrosAtributosTwo.svg"
+                src="/assets/images/nuestrosAtributos/NuestrosAtributosTwo.svg"
                 alt="poker"
               />
               <Image
                 loading="lazy"
                 height={100}
                 width={100}
-                src="/assets/icons/nuestrosAtributos/Proactividad.svg"
+                src="/assets/images/nuestrosAtributos/Proactividad.svg"
                 alt="poker"
               />
               {/* Title */}
@@ -109,7 +109,7 @@ const NuestrosAtributos = () => {
                 loading="lazy"
                 height={100}
                 width={100}
-                src="/assets/icons/nuestrosAtributos/Innovación.svg"
+                src="/assets/images/nuestrosAtributos/Innovación.svg"
                 alt="poker"
               />
               {/* Title */}
@@ -172,7 +172,7 @@ const NuestrosAtributos = () => {
             data-aos-delay="100"
             className="flex justify-center mt-9"
           >
-            <ButtonLiner title="Mostrar más" />
+            <GreenButton title="Mostrar más" />
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ const Footer = () => {
 
   return (
     <div className="bg-black mt-20 xl:mt-36 relative overflow-hidden">
-      {" "}
+      
       {/* Container for the footer */}
       {/* Background circles */}
       <div className="absolute bg-gradient-to-bl from-lightSky to-lightGreen w-[180px] h-[180px] rounded-full blur-[120px] bottom-[6%] end-[-70px] translate-y-[-50%] pointer-events-none"></div>
@@ -18,11 +18,11 @@ const Footer = () => {
       {/* Main container */}
       <div className="container max-w-[1140px] mx-auto px-3 md:pt-16 sm:pt-10 pt-7 pb-10">
         <div className="flex flex-wrap">
-          {" "}
+          
           {/* Flex container for columns */}
           {/* Left column */}
           <div className="xl:w-4/12 w-full flex justify-center flex-col items-center xl:items-start">
-            {" "}
+            
             {/* Logo and description */}
             <Image
               src="/assets/icons/main-logo/logo.svg"
@@ -32,7 +32,7 @@ const Footer = () => {
               alt="logo"
             />
             <p className="text-white font-Inter font-medium text-base mb-6 opacity-70 text-center xl:text-start max-w-[534px] mx-auto">
-              {" "}
+              
               {/* Description */}
               En Exclusive Games somos un equipo apasionado de personas
               dedicadas al desarrollo de multiplataformas para juegos de azar
@@ -43,7 +43,7 @@ const Footer = () => {
                 href="https://www.instagram.com/accounts/login/"
                 className="hover:scale-110 transition-all duration-200 ease-in-out"
               >
-                {" "}
+                
                 {/* Instagram link */}
                 <Instagram />
               </Link>
@@ -52,7 +52,7 @@ const Footer = () => {
                 target="_blank"
                 className="hover:scale-110 transition-all duration-200 ease-in-out"
               >
-                {" "}
+                
                 {/* Facebook link */}
                 <FaceBook />
               </Link>
@@ -61,7 +61,7 @@ const Footer = () => {
                 target="_blank"
                 className="hover:scale-110 transition-all duration-200 ease-in-out"
               >
-                {" "}
+                
                 {/* LinkedIn link */}
                 <LinkedIn />
               </Link>
@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
           {/* Right column */}
           <div className="xl:w-8/12 w-full flex flex-wrap xl:mt-0 mt-10 md:mt-16">
-            {" "}
+            
             {/* Flex container for footer links */}
             {/* Mapping through footer contents */}
             {FooterLinks.map((value, i) => {
@@ -79,9 +79,9 @@ const Footer = () => {
                   key={i}
                 >
                   <li className="font-Inter font-bold text-sm sm:text-base text-white mb-2">
-                    {" "}
+                    
                     {/* Footer section title */}
-                    <Link href="">{value.title}</Link>{" "}
+                    <Link href="">{value.title}</Link>
                     {/* Link to the section */}
                   </li>
                   {/* Mapping through links in each section */}
@@ -92,7 +92,7 @@ const Footer = () => {
                           href={subValue.path}
                           className="flex items-center gap-2 opacity-70 text-white font-medium text-sm sm:text-base hover:opacity-100 duration-100 ease-in-out transition-all"
                         >
-                          {" "}
+                          
                           {/* Footer link */}
                           {subValue.icon} {subValue.links} {/* Link content */}
                         </Link>
@@ -107,7 +107,7 @@ const Footer = () => {
       </div>
       {/* Footer bottom */}
       <p className="font-Inter flex items-center justify-center py-5 border-t-[1px] border-EerieBlack text-center gap-2 opacity-50 text-white font-medium text-sm sm:text-base px-2">
-        © Juegos exclusivos - Todos los derechos reservados {currentYear}{" "}
+        © Juegos exclusivos - Todos los derechos reservados {currentYear}
         {/* Footer text with current year */}
       </p>
     </div>

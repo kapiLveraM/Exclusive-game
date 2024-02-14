@@ -37,13 +37,13 @@ const NavBar = () => {
                 <div className=" container xl:max-w-[1140px] mx-auto px-3">
                     <div className=" flex justify-between items-center">
                         {/* Logo */}
-                        <div>
+                        <div className="mt-0">
                             <Link href="#">
                                 <Image
                                     loading="lazy"
                                     height={210}
                                     width={43}
-                                    src="/assets/icons/main-logo/logo.svg"
+                                    src="/assets/images/main-logo/logo.svg"
                                     alt="logoImg"
                                     className="w-full max-w-[150px] md:max-w-[210px]"
                                 />

@@ -9,10 +9,10 @@ module.exports = {
     extend: {
      
          backgroundImage: {
-        'hero': "url('/assets/images/background/hero.webp')",
-        'jackpot': "url('/assets/images/background/jackportBg.webp')",
-        'kasinoNight': "url('/assets/images/background/slots.webp')",
-        'luxury': "url('/assets/images/background/slots.webp')",
+        'hero': "url('/assets/images/background/Hero.webp')",
+        'jackpot': "url('/assets/images/background/Jackport.webp')",
+        'kasinoNight': "url('/assets/images/background/Slots.webp')",
+        'luxury': "url('/assets/images/background/Slots.webp')",
         'lanza': "url('/assets/images/background/Luxury.webp')",
         'propiaLanza': "url('/assets/images/background/FinalCta.webp')",
       },

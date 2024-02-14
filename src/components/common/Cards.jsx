@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import ButtonWhite from "../button/ButtonWhite";
+import ButtonWhite from "./button/ButtonWhite";
 
 const Cards = (props) => {
   const { image, titleText } = props;

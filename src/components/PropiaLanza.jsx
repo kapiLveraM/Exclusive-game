@@ -1,5 +1,5 @@
 import React from "react";
-import ButtonLiner from "./common/button/ButtonLiner"; // Importing ButtonLiner component
+import GreenButton from "./common/button/GreenButton"; // Importing GreenButton component
 
 // PropiaLanza component
 const PropiaLanza = () => {
@@ -19,7 +19,7 @@ const PropiaLanza = () => {
           Lanza tu propia plataforma en sólo 2 semanas
         </p>
         {/* Button component */}
-        <ButtonLiner title="Leer más" />
+        <GreenButton title="Leer más" />
       </div>
     </div>
   );

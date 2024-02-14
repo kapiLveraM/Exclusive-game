@@ -1,12 +1,12 @@
 import React from "react";
-import ButtonLiner from "./common/button/ButtonLiner";
+import GreenButton from "./common/button/GreenButton";
 import NavBar from "./navBar/NavBar";
 
 const Hero = () => {
   return (
     <>
       {/* Hero section background */}
-      <div className=" bg-hero bg-no-repeat bg-cover">
+      <div className=" bg-hero bg-no-repeat bg-cover min-h-screen">
         {/* Navigation bar */}
         <NavBar />
         
@@ -18,7 +18,7 @@ const Hero = () => {
           {/* Container */}
           <div className="container xl:max-w-[1140px] mx-auto px-3">
             {/* Content */}
-            <div data-aos="zoom-in" className="flex flex-col items-center">
+            <div data-aos="zoom-in" className="flex flex-col items-center lg:min-h-[360px]">
               {/* Title */}
               <h1
                 data-aos="fade-up"
@@ -31,19 +31,20 @@ const Hero = () => {
               </h1>
               
               {/* Description */}
+              <div className="max-w-[411px] w-full md:max-w-[727px] min-h-24">
               <p
                 data-aos="fade-up"
                 data-aos-delay="600"
                 data-aos-easing="linear"
                 data-aos-duration="800"
-                className="text-center font-medium text-sm sm:text-base font-Inter text-white max-w-[727px] mx-auto !opacity-80 mt-4"
+                className="text-center font-medium text-sm md:text-base font-Inter text-white  mx-auto !opacity-80 mt-4"
               >
                 En Exclusive Games somos un equipo apasionado de personas
                 dedicados al desarrollo de multiplataformas para juegos de azar.
                 A lo largo de nuestra vida consumimos todo tipo de juegos hasta
                 que un día decidimos crear los propios.
               </p>
-              
+              </div>
               {/* Button */}
               <div
                 data-aos="fade-up"
@@ -52,7 +53,7 @@ const Hero = () => {
                 data-aos-duration="800"
                 className="mt-10"
               >
-                <ButtonLiner type="submit" title="Empezar" />
+                <GreenButton type="submit" title="Empezar" />
               </div>
             </div>
           </div>

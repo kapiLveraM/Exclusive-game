@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import ButtonLiner from "./common/button/ButtonLiner";
+import GreenButton from "./common/button/GreenButton";
 
 const Luxury = () => {
   return (
@@ -41,7 +41,7 @@ const Luxury = () => {
           className=" absolute right-52 bottom-32 hidden lg:block"
         />
         <h3 className=" font-Anton font-normal lg:text-start text-center text-white text-lg  leading-[97%]">
-          Luxury{" "}
+          Luxury
         </h3>
         <p className=" font-Inter font-medium text-sm sm:text-base mt-3 sm:mt-4 mb-5 sm:mb-6 text-white !opacity-80 max-w-[391px] sm:leading-7">
           lleva tu experiencia de juego al siguiente nivel. Con todas las
@@ -60,7 +60,7 @@ const Luxury = () => {
               loading="lazy"
               width={24}
               height={24}
-              src="/assets/icons/nuestrasOfertas/biCheckAll.svg"
+              src="/assets/images/nuestrasOfertas/biCheckAll.svg"
               alt="bi_check"
             />
             <p className="font-medium text-sm sm:text-base sm:leading-6 font-Inter text-white !opacity-80 max-w-[387px]">
@@ -73,7 +73,7 @@ const Luxury = () => {
               loading="lazy"
               width={24}
               height={24}
-              src="/assets/icons/nuestrasOfertas/biCheckAll.svg"
+              src="/assets/images/nuestrasOfertas/biCheckAll.svg"
               alt="bi_check"
             />
             <p className="font-medium text-sm sm:text-base sm:leading-6 font-Inter text-white !opacity-80 max-w-[387px]">
@@ -85,7 +85,7 @@ const Luxury = () => {
               loading="lazy"
               width={24}
               height={24}
-              src="/assets/icons/nuestrasOfertas/biCheckAll.svg"
+              src="/assets/images/nuestrasOfertas/biCheckAll.svg"
               alt="bi_check"
             />
             <p className="font-medium text-sm sm:text-base sm:leading-6 font-Inter text-white !opacity-80 max-w-[387px]">
@@ -98,7 +98,7 @@ const Luxury = () => {
               loading="lazy"
               width={24}
               height={24}
-              src="/assets/icons/nuestrasOfertas/biCheckAll.svg"
+              src="/assets/images/nuestrasOfertas/biCheckAll.svg"
               alt="bi_check"
             />
             <p className="font-medium text-sm sm:text-base sm:leading-6 font-Inter text-white !opacity-80 max-w-[387px]">
@@ -110,16 +110,16 @@ const Luxury = () => {
               loading="lazy"
               width={24}
               height={24}
-              src="/assets/icons/nuestrasOfertas/biCheckAll.svg"
+              src="/assets/images/nuestrasOfertas/biCheckAll.svg"
               alt="bi_check"
             />
             <p className="font-medium text-sm sm:text-base sm:leading-6 font-Inter text-white !opacity-80 max-w-[387px]">
-              Tiempo de creación 2 a 3 semanas{" "}
+              Tiempo de creación 2 a 3 semanas
             </p>
           </div>
         </div>
         <div className=" mt-9">
-          <ButtonLiner type="subimt" title="Comprar ahora" />
+          <GreenButton type="subimt" title="Comprar ahora" />
         </div>
       </div>
     </div>

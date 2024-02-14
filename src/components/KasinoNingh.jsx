@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import ButtonLiner from "./common/button/ButtonLiner";
+import GreenButton from "./common/button/GreenButton";
 
 // KasinoNingh component for displaying reasons to choose us
 const KasinoNingh = () => {
@@ -23,7 +23,7 @@ const KasinoNingh = () => {
         <div className="flex flex-wrap lg:flex-row flex-col-reverse items-center justify-center">
           {/* Left column with text content */}
           <div className="lg:w-6/12 md:w-7/12 sm:w-10/12 w-full lg:pe-5 lg:mt-0 mt-8">
-            <div>
+            <div className="mt-0">
               {/* Title */}
               <p className="font-Anton font-normal text-darkBlack xl:text-5xl text-3xl mb-4 leading-[97%]">
                 Por qué elegirnos
@@ -40,7 +40,7 @@ const KasinoNingh = () => {
               </p>
               {/* Button for more information */}
               <div className="mt-6">
-                <ButtonLiner title="Aprende más" />
+                <GreenButton title="Aprende más" />
                 {/* "Learn more" button */}
               </div>
             </div>

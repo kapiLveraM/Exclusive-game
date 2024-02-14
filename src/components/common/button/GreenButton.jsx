@@ -1,7 +1,7 @@
 import React from "react";
 import { ButtonGreen } from "../Icons";
 
-const ButtonLiner = (props) => {
+const GreenButton = (props) => {
   const {title} = props;
   return (
     <div className=" relative group">
@@ -17,4 +17,4 @@ const ButtonLiner = (props) => {
   );
 };
 
-export default ButtonLiner;
+export default GreenButton;

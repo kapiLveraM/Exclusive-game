@@ -1,6 +1,6 @@
 import React from "react";
 import { EllosEligieron } from "./common/Helper";
-import Cards from "./common/allCards/Cards";
+import Cards from "./common/Cards";
 
 // Component definition
 const Ellos = () => {
@@ -16,7 +16,7 @@ const Ellos = () => {
           data-aos-delay="300"
           className="font-Anton text-3xl md:text-5xl text-white text-center"
         >
-          Ellos eligieron apostar con nosotros{" "}
+          Ellos eligieron apostar con nosotros
         </h2>
         {/* Card section */}
         <div

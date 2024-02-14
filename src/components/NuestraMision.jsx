@@ -51,10 +51,10 @@ const NuestraMision = () => {
                 href="#"
                 className="font-Inter font-bold text-green text-base flex items-center group"
               >
-                Aprende más{" "}
+                Aprende más
                 <span className="ms-2 group-hover:ms-4 transition-all ease-in-out duration-150">
-                  <GreenArrow />{" "}
-                </span>{" "}
+                  <GreenArrow />
+                </span>
               </Link>
             </div>
           </div>
@@ -79,10 +79,10 @@ const NuestraMision = () => {
                 href="#"
                 className="font-Inter font-bold text-green text-base flex items-center group"
               >
-                Aprende más{" "}
+                Aprende más
                 <span className="ms-2 group-hover:ms-4 transition-all ease-in-out duration-150">
-                  <GreenArrow />{" "}
-                </span>{" "}
+                  <GreenArrow />
+                </span>
               </Link>
             </div>
             {/* Image */}

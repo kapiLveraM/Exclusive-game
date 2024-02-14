@@ -1,6 +1,6 @@
 import React from "react";
 import { Juegos } from "./common/Helper";
-import Cards from "./common/allCards/Cards";
+import Cards from "./common/Cards";
 
 // Juegos component for displaying live games
 const Juegosen = () => {
