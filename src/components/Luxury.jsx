@@ -4,7 +4,7 @@ import ButtonLiner from "./common/button/ButtonLiner";
 
 const Luxury = () => {
   return (
-    <div className="container max-w-[1140px] mx-auto px-3 relative z-50 ">
+    <div className="container xl:max-w-[1140px] mx-auto px-3 relative z-50 ">
       <div   data-aos="fade-up"
             data-aos-easing="linear"
      data-aos-duration="800" className="bg-lanza py-[46px] bg-cover border-[0.5px] border-MagentaYellow sm:border-none rounded-2xl sm:bg-[100%_100%] bg-no-repeat text-center flex justify-center flex-col items-center px-3 relative">

@@ -31,7 +31,6 @@ export default function Home() {
       {/* Meta tags for the page */}
       <PageMataTag/>
     <div className="overflow-x-hidden">
-      
       {/* Button to scroll back to the top of the page */}
       <BackToTop/>
       {/* Hero section */}

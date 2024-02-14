@@ -52,7 +52,7 @@ const NuestrosAtributos = () => {
                 data-aos-easing="linear"
                 data-aos-duration="800"
                 data-aos-delay="400"
-                className="font-medium text-sm sm:text-base font-Inter text-darkBlack !opacity-80 max-w-[263px]"
+                className="font-medium text-sm sm:text-base font-Inter text-darkBlack !opacity-80 max-w-[263px] sm:mt-3"
               >
                 Comprendemos a la perfección los gustos de las personas y el
                 mundo del gaming.
@@ -94,7 +94,7 @@ const NuestrosAtributos = () => {
                 data-aos-easing="linear"
                 data-aos-duration="800"
                 data-aos-delay="400"
-                className="font-medium text-sm sm:text-base font-Inter text-darkBlack !opacity-80 max-w-[235px]"
+                className="font-medium text-sm sm:text-base font-Inter text-darkBlack !opacity-80 max-w-[235px] sm:mt-3"
               >
                 Somos creadores de cambios que exploran nuevas formas de
                 entretenimiento.
@@ -128,7 +128,7 @@ const NuestrosAtributos = () => {
                 data-aos-easing="linear"
                 data-aos-duration="800"
                 data-aos-delay="400"
-                className="font-medium text-sm sm:text-base font-Inter text-darkBlack !opacity-80 max-w-[245px]"
+                className="font-medium text-sm sm:text-base font-Inter text-darkBlack !opacity-80 max-w-[245px] sm:mt-3"
               >
                 Pensamos fuera de la caja para estar siempre un paso adelante.
               </p>

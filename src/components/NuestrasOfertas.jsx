@@ -14,7 +14,7 @@ const NuestrasOfertas = () => {
         </p>
         <div   data-aos-easing="linear"
      data-aos-duration="800"  data-aos="fade-up"  className="border border-MagentaYellow Nuestras-ofertas-box mt-7 xl:mt-[60px] rounded-2xl px-5 py-11 lg:p-[57px_15px_30px_40px]">
-          <div className="flex flex-wrap justify-between items-center">
+          <div className="flex flex-wrap justify-center lg:justify-between items-center">
             <div className="lg:w-6/12 sm:px-3">
               <div className="Nuestras-ofertas-img relative ">
                 <div className="w-40 h-40 absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)]  rounded-full blur-[70px] left-[11%] top-[-7%] hidden lg:block"></div>

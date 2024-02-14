@@ -6,7 +6,11 @@
 @tailwind components;
 /* Including component styles */
 @tailwind utilities;
+* {
+  scroll-behavior: smooth !important;
+}
 /* Including utility styles */
+
 
 /* Styles for mobile navigation links */
 .mobile-nav-li {
@@ -31,8 +35,7 @@
 /* Body styles */
 html,
 body {
-  background: #00141b !important;
-  /* Background color */
+  background: #00141b !important; 
 }
 
 /* Nuestras-ofertas image styles */
