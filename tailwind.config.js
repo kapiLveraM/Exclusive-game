@@ -9,12 +9,12 @@ module.exports = {
     extend: {
      
          backgroundImage: {
-        'hero': "url('/assets/images/background/hero.png')",
-        'jackpot': "url('/assets/images/background/jackportBg.png')",
-        'kasinoNight': "url('/assets/images/background/slots.png')",
-        'luxury': "url('/assets/images/background/slots.png')",
-        'lanza': "url('/assets/images/background/Luxury.png')",
-        'propiaLanza': "url('/assets/images/background/FinalCta.png')",
+        'hero': "url('/assets/images/background/hero.webp')",
+        'jackpot': "url('/assets/images/background/jackportBg.webp')",
+        'kasinoNight': "url('/assets/images/background/slots.webp')",
+        'luxury': "url('/assets/images/background/slots.webp')",
+        'lanza': "url('/assets/images/background/Luxury.webp')",
+        'propiaLanza': "url('/assets/images/background/FinalCta.webp')",
       },
 
       
