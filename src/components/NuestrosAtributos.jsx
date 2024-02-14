@@ -142,7 +142,7 @@ const NuestrosAtributos = () => {
             Slots
           </h2>
           {/* Description */}
-          <p className="text-center font-medium text-sm sm:text-base font-Inter text-darkBlack max-w-[904px] mx-auto opacity-80 mt-4">
+          <p className="text-center font-medium text-sm sm:text-base font-Inter text-darkBlack max-w-[904px] mx-auto !opacity-80 mt-4">
             En Exclusive Games, ofrecemos una selección de más de 600 juegos de
             los principales desarrolladores, como Aristocrat, Amatic, EGT,
             Novomatic, IGT, Playtech, Igrosoft y Tom Horn. Nuestro equipo

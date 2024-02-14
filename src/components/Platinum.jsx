@@ -23,7 +23,7 @@ const Platinum = () => {
             {/* Title */}
             <h3 className="font-Anton text-lg text-white">Platinum</h3>
             {/* Description */}
-            <p className="mt-4 font-medium text-sm sm:text-base font-Inter opacity-80 text-white max-w-[364px]">
+            <p className="mt-4 font-medium text-sm sm:text-base font-Inter !opacity-80 text-white max-w-[364px]">
               Diseño totalmente personalizado. Contáctanos para un presupuesto.
             </p>
             {/* Price */}
@@ -39,7 +39,7 @@ const Platinum = () => {
                 src="/assets/icons/nuestrasOfertas/biCheckAll.svg"
                 alt="bi_check"
               />
-              <p className="font-medium text-sm sm:text-base leading-6 font-Inter text-white opacity-80 max-w-[387px]">
+              <p className="font-medium text-sm sm:text-base leading-6 font-Inter text-white !opacity-80 max-w-[387px]">
                 Personalizable
               </p>
             </div>

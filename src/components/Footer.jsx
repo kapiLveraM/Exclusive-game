@@ -68,7 +68,7 @@ const Footer = () => {
             </div>
           </div>
           {/* Right column */}
-          <div className="xl:w-8/12 w-full flex flex-wrap xl:mt-0 mt-5">
+          <div className="xl:w-8/12 w-full flex flex-wrap xl:mt-0 mt-10 md:mt-16">
             {" "}
             {/* Flex container for footer links */}
             {/* Mapping through footer contents */}

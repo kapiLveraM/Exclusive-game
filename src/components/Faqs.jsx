@@ -11,7 +11,7 @@ import { Accordian } from "./common/Helper"; // Importing accordion content from
 function Icon({ id, open }) {
   return (
     <>
-      <div className="relative">
+      <div className="relative ms-4 sm:ms-3 ">
         {/* SVG for accordion icon */}
         <svg
           width="20"
@@ -84,7 +84,7 @@ const Faqs = () => {
                 className="py-0"
               >
                 {/* Accordion header title */}
-                <h2 className="text-start text-white flex font-Anton font-normal leading-[140%] md:leading-[150%] text-base sm:text-md mb-0">
+                <h2 className="text-start text-white flex font-Anton font-normal leading-[140%] md:leading-[150%] text-base sm:text-md mb-0 ">
                   {value.title}
                 </h2>
               </AccordionHeader>

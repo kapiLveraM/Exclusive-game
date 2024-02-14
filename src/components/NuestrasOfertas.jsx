@@ -31,7 +31,7 @@ const NuestrasOfertas = () => {
             </div>
             <div className="lg:w-6/12 xl:w-5/12 mt-16 lg:mt-0">
               <h3 className="font-Anton text-md sm:text-lg text-white">Silver</h3>
-              <p className="font-medium text-sm sm:text-base font-Inter text-white opacity-80 mt-3 sm:mt-4">
+              <p className="font-medium text-sm sm:text-base font-Inter text-white !opacity-80 mt-3 sm:mt-4">
                 Diseño predeterminado, atractivo y fácil de navegar, tecnología
                 HTLM5.
               </p>
@@ -39,28 +39,28 @@ const NuestrasOfertas = () => {
                 <h2 className="font-Anton text-3xl md:text-5xl text-white">$5000</h2>
                 <div className="flex items-start gap-2 mt-4 ">
                   <Image loading="lazy" width={24} height={24} src="/assets/icons/nuestrasOfertas/biCheckAll.svg" alt="bi_check" />
-                  <p className="font-medium text-sm sm:text-base font-Inter text-white opacity-80">Disponibles
+                  <p className="font-medium text-sm sm:text-base font-Inter text-white !opacity-80">Disponibles
                     Payku, Pix,
                     Depósitos en Euros, Criptomonedas, Cargas manuales</p>
                 </div>
                 <div className="flex items-start gap-2 mt-3 ">
                   <Image loading="lazy" width={24} height={24} src="/assets/icons/nuestrasOfertas/biCheckAll.svg" alt="bi_check" />
-                  <p className="font-medium text-sm sm:text-base font-Inter text-white opacity-80">
+                  <p className="font-medium text-sm sm:text-base font-Inter text-white !opacity-80">
                     Control de RTP (controlás qué porcentaje pagar)</p>
                 </div>
                 <div className="flex items-start gap-2 mt-3 ">
                   <Image loading="lazy" width={24} height={24} src="/assets/icons/nuestrasOfertas/biCheckAll.svg" alt="bi_check" />
-                  <p className="font-medium text-sm sm:text-base font-Inter text-white opacity-80">
+                  <p className="font-medium text-sm sm:text-base font-Inter text-white !opacity-80">
                     Bonos Editables, Happy Hours, Jackpots, Códigos Promocionales Regalos</p>
                 </div>
                 <div className="flex items-start gap-2 mt-3 ">
                   <Image loading="lazy" width={24} height={24} src="/assets/icons/nuestrasOfertas/biCheckAll.svg" alt="bi_check" />
-                  <p className="font-medium text-sm sm:text-base font-Inter text-white opacity-80">Aplicación para Android y Windows de regalo.</p>
+                  <p className="font-medium text-sm sm:text-base font-Inter text-white !opacity-80">Aplicación para Android y Windows de regalo.</p>
                 </div>
 
                 <div className="flex items-start gap-2 mt-3 ">
                   <Image loading="lazy" width={24} height={24} src="/assets/icons/nuestrasOfertas/biCheckAll.svg" alt="bi_check" />
-                  <p className="font-medium text-sm sm:text-base font-Inter text-white opacity-80">Tiempo de creación 2 a 3 semanas</p>
+                  <p className="font-medium text-sm sm:text-base font-Inter text-white !opacity-80">Tiempo de creación 2 a 3 semanas</p>
                 </div>
 
 

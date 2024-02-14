@@ -7,10 +7,10 @@ const Mas = () => {
   return (
     <div className="relative">
       {/* Background circles */}
-      <div className="w-[484px] h-[484px] absolute bg-gradient-to-bl from-lightSky to-lightGreen opacity-50 rounded-full blur-[200px] left-[-20px] top-[-50%] hidden xl:blocks"></div>
+      <div className="w-[484px] h-[484px] absolute bg-gradient-to-bl from-lightSky to-lightGreen opacity-50 rounded-full blur-[200px] left-[-20px] top-[-50%] hidden xl:block "></div>
       <div className="w-[484px] h-[484px] absolute bg-gradient-to-bl from-lightSky to-lightGreen opacity-50 rounded-full blur-[200px] right-[-20%] bottom-[-40%] hidden xl:block"></div>
       {/* Content container */}
-      <div className="container max-w-[1140px] mx-auto px-3 mt-36 lg:pb-0 relative z-20">
+      <div className="container max-w-[1140px] mx-auto px-3 mt-36 lg:pb-0 relative z-50">
         <div className="flex flex-wrap items-center justify-center">
           {/* Left side with image */}
           <div
