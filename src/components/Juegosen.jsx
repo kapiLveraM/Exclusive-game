@@ -1,20 +1,20 @@
 import React from "react";
-import { Juegos } from "./common/Helper";
+import { juegos } from "./common/Helper";
 import Cards from "./common/Cards";
 
-// Juegos component for displaying live games
-const Juegosen = () => {
+// juegos component for displaying live games
+const juegosen = () => {
   return (
     <div className="container max-w-[1140px] mx-auto px-3">
       {/* Title for live games section */}
       <p className="font-Anton font-normal text-white xl:text-5xl text-3xl text-center leading-[118%] xl:mb-[60px] mb-10">
-        Juegos en vivo
+        juegos en vivo
         {/* "Live games" */}
       </p>
 
       {/* Grid for displaying live games */}
       <div className="flex flex-wrap justify-center">
-        {Juegos.map((value, index) => {
+        {juegos.map((value, index) => {
           return (
             <div
               // AOS animation settings
@@ -36,4 +36,4 @@ const Juegosen = () => {
   );
 };
 
-export default Juegosen;
+export default juegosen;

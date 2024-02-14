@@ -5,14 +5,17 @@ import GreenButton from "./common/button/GreenButton";
 const Luxury = () => {
   return (
     <div className="container xl:max-w-[1140px] mx-auto px-3 relative z-50 ">
-      <div   data-aos="fade-up"
-            data-aos-easing="linear"
-     data-aos-duration="800" className="bg-lanza py-[46px] bg-cover border-[0.5px] border-MagentaYellow sm:border-none rounded-2xl sm:bg-[100%_100%] bg-no-repeat text-center flex justify-center flex-col items-center px-3 relative">
+      <div
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="800"
+        className="bg-lanza py-[46px] bg-cover border-[0.5px] border-MagentaYellow sm:border-none rounded-2xl sm:bg-[100%_100%] bg-no-repeat text-center flex justify-center flex-col items-center px-3 relative"
+      >
         <Image
           loading="lazy"
           width={78}
           height={79}
-          src="/assets/images/luxury/coin.png"
+          src="/assets/images/luxury/Coin.png"
           alt="coin"
           className=" w-auto h-auto absolute left-52 top-[102px] hidden lg:block"
         />
@@ -20,7 +23,7 @@ const Luxury = () => {
           loading="lazy"
           width={149}
           height={150}
-          src="/assets/images/luxury/playingCardDarkRed.png"
+          src="/assets/images/luxury/PlayingCardDarkRed.png"
           alt="coin"
           className=" absolute right-32 top-[102px] hidden lg:block Card_flip"
         />
@@ -28,7 +31,7 @@ const Luxury = () => {
           loading="lazy"
           width={176}
           height={186}
-          src="/assets/images/luxury/playingCardRed.png"
+          src="/assets/images/luxury/PlayingCardRed.png"
           alt="coin"
           className=" absolute left-32 bottom-24 hidden lg:block Card_flip"
         />
@@ -36,7 +39,7 @@ const Luxury = () => {
           loading="lazy"
           width={66}
           height={69}
-          src="/assets/images/luxury/dei.png"
+          src="/assets/images/luxury/Dei.png"
           alt="coin"
           className=" absolute right-52 bottom-32 hidden lg:block"
         />
@@ -51,16 +54,13 @@ const Luxury = () => {
         <h2 className=" font-Anton text-3xl md:text-5xl text-white mt-8">
           $9000
         </h2>
-        <div
-        
-          className=" flex flex-col justify-between"
-        >
+        <div className=" flex flex-col justify-between">
           <div className="flex items-start gap-2 mt-4 ">
             <Image
               loading="lazy"
               width={24}
               height={24}
-              src="/assets/images/nuestrasOfertas/biCheckAll.svg"
+              src="/assets/images/nuestrasOfertas/BiCheckAll.svg"
               alt="bi_check"
             />
             <p className="font-medium text-sm sm:text-base sm:leading-6 font-Inter text-white !opacity-80 max-w-[387px]">
@@ -73,7 +73,7 @@ const Luxury = () => {
               loading="lazy"
               width={24}
               height={24}
-              src="/assets/images/nuestrasOfertas/biCheckAll.svg"
+              src="/assets/images/nuestrasOfertas/BiCheckAll.svg"
               alt="bi_check"
             />
             <p className="font-medium text-sm sm:text-base sm:leading-6 font-Inter text-white !opacity-80 max-w-[387px]">
@@ -85,7 +85,7 @@ const Luxury = () => {
               loading="lazy"
               width={24}
               height={24}
-              src="/assets/images/nuestrasOfertas/biCheckAll.svg"
+              src="/assets/images/nuestrasOfertas/BiCheckAll.svg"
               alt="bi_check"
             />
             <p className="font-medium text-sm sm:text-base sm:leading-6 font-Inter text-white !opacity-80 max-w-[387px]">
@@ -98,7 +98,7 @@ const Luxury = () => {
               loading="lazy"
               width={24}
               height={24}
-              src="/assets/images/nuestrasOfertas/biCheckAll.svg"
+              src="/assets/images/nuestrasOfertas/BiCheckAll.svg"
               alt="bi_check"
             />
             <p className="font-medium text-sm sm:text-base sm:leading-6 font-Inter text-white !opacity-80 max-w-[387px]">
@@ -110,7 +110,7 @@ const Luxury = () => {
               loading="lazy"
               width={24}
               height={24}
-              src="/assets/images/nuestrasOfertas/biCheckAll.svg"
+              src="/assets/images/nuestrasOfertas/BiCheckAll.svg"
               alt="bi_check"
             />
             <p className="font-medium text-sm sm:text-base sm:leading-6 font-Inter text-white !opacity-80 max-w-[387px]">

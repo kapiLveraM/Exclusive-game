@@ -26,7 +26,7 @@ const NuestraMision = () => {
               loading="lazy"
               height={538}
               width={536}
-              src="/assets/images/nuestraMision/poker.webp"
+              src="/assets/images/nuestraMision/Poker.webp"
               alt="poker"
               className="w-full sm:max-w-[500px] md:w-full"
             />
@@ -98,7 +98,7 @@ const NuestraMision = () => {
                 loading="lazy"
                 height={58}
                 width={536}
-                src="/assets/images/nuestraMision/aviator.webp"
+                src="/assets/images/nuestraMision/Aviator.webp"
                 alt="poker"
                 className="w-full sm:max-w-[500px] md:w-full"
               />

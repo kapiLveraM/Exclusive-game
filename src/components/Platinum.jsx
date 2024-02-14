@@ -36,7 +36,7 @@ const Platinum = () => {
                 loading="lazy"
                 width={24}
                 height={24}
-                src="/assets/images/nuestrasOfertas/biCheckAll.svg"
+                src="/assets/images/nuestrasOfertas/BiCheckAll.svg"
                 alt="bi_check"
               />
               <p className="font-medium text-sm sm:text-base leading-6 font-Inter text-white !opacity-80 max-w-[387px]">

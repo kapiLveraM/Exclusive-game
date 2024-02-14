@@ -1,11 +1,11 @@
 import { GreenBulb, GreenValue, Mail, StartMan, Telephone } from "./Icons";
 
 export const Slot = [
-  "/assets/images/slots/jetX.webp",
-  "/assets/images/slots/joker.webp",
-  "/assets/images/slots/slots.webp",
-  "/assets/images/slots/lucky.webp",
-  "/assets/images/slots/helloSummer.webp",
+  "/assets/images/slots/JetX.webp",
+  "/assets/images/slots/Joker.webp",
+  "/assets/images/slots/Slots.webp",
+  "/assets/images/slots/Lucky.webp",
+  "/assets/images/slots/HelloSummer.webp",
   "/assets/images/slots/casino.webp",
 ];
 // jackpot services
@@ -17,17 +17,17 @@ export const JackpotServices = [
   "Aplicación para android y windows de regalo.",
 ];
 
-// Juegos content
-export const Juegos = [
-  "/assets/images/Juegos/blackJack.webp",
-  "/assets/images/Juegos/europeanRoulette.webp",
-  "/assets/images/Juegos/liveBetting.webp",
+// juegos content
+export const juegos = [
+  "/assets/images/juegos/BlackJack.webp",
+  "/assets/images/juegos/EuropeanRoulette.webp",
+  "/assets/images/juegos/LiveBetting.webp",
 ];
-// EllosEligieron
-export const EllosEligieron = [
-  "/assets/images/EllosEligieron/giros.webp",
-  "/assets/images/EllosEligieron/europeanRoulette.webp",
-  "/assets/images/EllosEligieron/liveBetting.webp",
+// ellosEligieron
+export const ellosEligieron = [
+  "/assets/images/ellosEligieron/Giros.webp",
+  "/assets/images/ellosEligieron/EuropeanRoulette.webp",
+  "/assets/images/ellosEligieron/LiveBetting.webp",
 ];
 
 // mas card data
@@ -53,7 +53,7 @@ export const MasCards = [
 export const Accordian = [
   {
     title:
-      " ¿Cuáles son las ventajas de elegir Juegos Exclusivos para mis plataformas de juegos?",
+      " ¿Cuáles son las ventajas de elegir juegos Exclusivos para mis plataformas de juegos?",
     description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
@@ -69,7 +69,7 @@ export const Accordian = [
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
-    title: "¿Cuánto tiempo lleva crear una plataforma con Juegos Exclusivos?",
+    title: "¿Cuánto tiempo lleva crear una plataforma con juegos Exclusivos?",
     description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },

@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { JackpotServices } from "./common/Helper";
 import Lanza from "./Lanza";
-import Juegosen from "./Juegosen";
+import juegosen from "./juegosen";
 import { GreenArrowJackpot } from "./common/Icons";
 
 // Define Jackpot component
@@ -24,7 +24,7 @@ const Jackpot = () => {
               data-aos-easing="linear"
               data-aos-duration="800"
               loading="lazy"
-              src="/assets/images/jackpot/jackpot.webp"
+              src="/assets/images/jackpot/Jackpot.webp"
               width={558}
               height={439}
               className="w-full"
@@ -62,7 +62,7 @@ const Jackpot = () => {
       </div>
       {/* Additional components */}
       <Lanza />
-      <Juegosen />
+      <juegosen />
     </div>
   );
 };

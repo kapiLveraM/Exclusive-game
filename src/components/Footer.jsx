@@ -25,7 +25,7 @@ const Footer = () => {
             
             {/* Logo and description */}
             <Image
-              src="/assets/icons/main-logo/logo.svg"
+              src="/assets/images/mainLogo/logo.svg"
               width={210}
               height={43}
               className="w-full mb-4 max-w-[210px]"
@@ -107,7 +107,7 @@ const Footer = () => {
       </div>
       {/* Footer bottom */}
       <p className="font-Inter flex items-center justify-center py-5 border-t-[1px] border-EerieBlack text-center gap-2 opacity-50 text-white font-medium text-sm sm:text-base px-2">
-        © Juegos exclusivos - Todos los derechos reservados {currentYear}
+        © juegos exclusivos - Todos los derechos reservados {currentYear}
         {/* Footer text with current year */}
       </p>
     </div>

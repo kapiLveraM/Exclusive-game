@@ -1,5 +1,5 @@
 import React from "react";
-import { EllosEligieron } from "./common/Helper";
+import { ellosEligieron } from "./common/Helper";
 import Cards from "./common/Cards";
 
 // Component definition
@@ -26,8 +26,8 @@ const Ellos = () => {
           data-aos-delay="400"
           className="flex flex-wrap justify-center mt-7 md:mt-14"
         >
-          {/* Mapping through the EllosEligieronContent array */}
-          {EllosEligieron.map((value, index) => {
+          {/* Mapping through the ellosEligieronContent array */}
+          {ellosEligieron.map((value, index) => {
             return (
               <div
                 key={index}

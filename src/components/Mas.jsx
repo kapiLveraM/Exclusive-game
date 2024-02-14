@@ -20,7 +20,7 @@ const Mas = () => {
             className="xl:w-6/12 lg:w-7/12 sm:w-8/12 w-full lg:pe-5"
           >
             <Image
-              src="/assets/images/mas/seven.webp"
+              src="/assets/images/mas/Seven.webp"
               width={558}
               height={439}
               className="w-full"

@@ -43,7 +43,7 @@ const NavBar = () => {
                                     loading="lazy"
                                     height={210}
                                     width={43}
-                                    src="/assets/images/main-logo/logo.svg"
+                                    src="/assets/images/mainLogo/logo.svg"
                                     alt="logoImg"
                                     className="w-full max-w-[150px] md:max-w-[210px]"
                                 />

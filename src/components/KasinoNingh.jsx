@@ -33,7 +33,7 @@ const KasinoNingh = () => {
               <p className="font-Inter font-medium md:text-base text-sm text-darkBlue opacity-70 max-w-[515px]">
                 Con Exclusive Games tenés Exclusivos beneficios. Te reintegramos
                 todo lo invertido en fichas en la moneda que elijas. En
-                Exclusive Games siempre sumamos nuevos juegos. Juegos crash, los
+                Exclusive Games siempre sumamos nuevos juegos. juegos crash, los
                 juegos interactivos que más pide la gente. Con Exclusive Games
                 empezás a ganar ya! Creamos tu plataforma en solo 2 semanas.
                 {/* Explanation of the benefits */}
@@ -50,7 +50,7 @@ const KasinoNingh = () => {
             <Image
               // Loading the image
               loading="lazy"
-              src="/assets/images/PorQue/casinoNight.webp"
+              src="/assets/images/porQue/CasinoNight.webp"
               width={558}
               height={439}
               className="w-full"
